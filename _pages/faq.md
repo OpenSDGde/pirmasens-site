@@ -9,7 +9,8 @@ layout: page
 
 ## Wie kann ich neue oder andere Datenquellen vorschlagen?
 
-Wenn Sie Feedback zu den von uns verwendeten Datenquellen oder Vorschläge für neue Datenquellen haben, senden Sie uns bitte eine E-Mail an <a href="mailto:{{site.email_contacts.questions}}">{{site.email_contacts.questions}}</a>.
+Wenn Sie Feedback zu den von uns verwendeten Datenquellen oder Vorschläge für neue Datenquellen haben, senden Sie uns bitte eine E-Mail an michaelmaas@pirmasens.de.
+
 
 ## Was bedeutet der Berichtsstatus?
 
@@ -27,7 +28,7 @@ Wir fügen Daten hinzu, sobald sie beschafft und überprüft worden sind. Dies g
 
 ## Was tun Sie, um Datenlücken zu schließen?
 
-Datenlücken bestehen noch für einzelne Indikatoren. Beispielsweise wenn einzelne Maßnahmen noch nicht angelaufen sind oder Daten noch erhoben werden müssen. Zeitgleich sind wir auch im Gespräch mit weiteren Akteuren in Ingolstadt für mögliche Datenkooperationen.
+Datenlücken bestehen noch für einzelne Indikatoren. Beispielsweise wenn einzelne Maßnahmen noch nicht angelaufen sind oder Daten noch erhoben werden müssen. Zeitgleich sind wir auch im Gespräch mit weiteren Akteuren in Pirmasens für mögliche Datenkooperationen.
 
 ## Wie zugänglich ist diese Website?
 
