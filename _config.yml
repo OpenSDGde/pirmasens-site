@@ -12,9 +12,9 @@ metadata_edit_url: http://prose.io/#OpenSDGde/primasens-data/edit/develop/meta/[
 # fields to change: title, leitsatz, hf-goals
 
 email_contacts:
-  questions: nachhaltigkeit@ingolstadt.de
-  suggestions: nachhaltigkeit@ingolstadt.de
-  functional: nachhaltigkeit@ingolstadt.de
+  questions: michaelmaas@pirmasens.de
+  suggestions: michaelmaas@pirmasens.de
+  functional: michaelmaas@pirmasens.de
 
 
 # 
@@ -36,8 +36,8 @@ cookie_consent_form:
   enabled: true
 
 country:
-  name: Ingolstadt
-  adjective: Ingolstadt
+  name: Pirmasens
+  adjective: Pirmasens
   
 create_indicators:
   layout: indicator
@@ -89,9 +89,9 @@ footer_language_toggle: none
 
 
 footer_menu:
-  - path: https://StadtIngolstadt.github.io/sdg-data/de/zip/all_indicators.zip
+  - path: https://gitlab.opencode.de/open-sdg-germany/pirmasens-data/de/zip/all_indicators.zip
     translation_key: Download
-  - path: mailto:nachhaltigkeit@ingolstadt.de
+  - path: mailto:michaelmaas@pirmasens.de
     translation_key: menu.contact_us
   - path: /about/cookies-and-privacy/
     translation_key: menu.cookies
@@ -113,18 +113,15 @@ frontpage_handlungsfelder_title:
 
 
 frontpage_cards:
-  - title: Nachhaltigkeitsbericht - Stadt Ingolstadt 2021
-    href: "https://nachhaltigkeitsagenda-ingolstadt.de/wp-content/uploads/2023/01/221208_BNK_final_web.pdf" 
-    thumbnail_src: /BNK_Titelbild_1_1.jpg
-  - title: Magazin - "Ingolstadt Nachhaltig" - Ausgabe 2022
-    href: "https://nachhaltigkeitsagenda-ingolstadt.de/wp-content/uploads/2023/01/IN_Magazin_dpa-CC_FINAL_DIGTAL.pdf"
-    thumbnail_src: /IN_Magazin_Titelbild_1_1.jpg
-  - title: Nachhaltigkeitsfilm - Stadt Ingolstadt
-    href: "https://www.youtube.com/watch?v=LnqFFrIGQQQ"
-    thumbnail_src: /Logo N-Agenda_1_1.png
-  - title: Video Rückblick - Visionen 2045 Ingolstadt
-    href: "https://www.youtube.com/watch?v=VDQF-RdU0nc"
-    thumbnail_src: /Logo N-Agenda_1_1.png
+  - title: Nachhaltigkeitsstrategie Pirmasens 2030
+    href: "https://gitlab.opencode.de/open-sdg-germany/pirmasens-data/-/raw/develop/public/uploads/Nachhaltigkeitsstrategie-Pirmasens.pdf?ref_type=heads" 
+    thumbnail_src: /Nachhaltigkeitsstrategie-Pirmasens.png
+  - title: SDG Biodiversität
+    href: "https://gitlab.opencode.de/open-sdg-germany/pirmasens-data/-/raw/develop/public/uploads/SDG_Biodiv_05.12.2023.pdf?ref_type=heads&inline=false"
+    thumbnail_src: /SDG_Biodiv_05.12.2023.png
+  - title: SDG Monitoring
+    href: "https://gitlab.opencode.de/open-sdg-germany/pirmasens-data/-/raw/develop/public/uploads/SDG_Monitoring_09.06.2024.pdf?ref_type=heads&inline=false"
+    thumbnail_src: /SDG_Monitoring_09.06.2024.png
 
 
 goal_image_base: https://open-sdg.org/sdg-translations/assets/img/goals
