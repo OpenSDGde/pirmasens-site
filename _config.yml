@@ -1,7 +1,8 @@
 # Jekyll configuration for Open SDG platform
 
 baseurl: "/pirmasens-site" # change here!
-remote_data_prefix: https://gitlab.opencode.de/open-sdg-germany/pirmasens-data
+remote_data_prefix: https://open-sdg-germany.usercontent.opencode.de/pirmasens-data
+
 
 # URL for the "Edit Data" and "Edit Metadata" button on indicators.
 data_edit_url: http://prose.io/#OpenSDGde/primasens-data/edit/develop/data/indicator_[id].csv
