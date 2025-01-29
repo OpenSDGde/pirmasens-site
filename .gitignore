@@ -13,3 +13,4 @@ deploy_key*.pub
 *.keybase
 .bundle
 vendor/
+node_modules/

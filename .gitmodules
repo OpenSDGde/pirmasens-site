@@ -1,0 +1,6 @@
+[submodule "theme-repo"]
+	path = theme-repo
+	url = https://github.com/OpenSDGde/open-sdg
+[submodule "data-repo"]
+	path = data-repo
+	url = https://gitlab.opencode.de/open-sdg-germany/pirmasens-data

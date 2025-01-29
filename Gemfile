@@ -1,9 +1,13 @@
-source "https://rubygems.org"
+source 'https://rubygems.org'
 
-gem "jekyll", "3.9.3"
-gem "html-proofer", "3.19.4"
-gem "jekyll-remote-theme"
-gem "deep_merge"
-gem "jekyll-open-sdg-plugins", "2.3.0"
-gem "kramdown-parser-gfm"
-gem "webrick"
+gem 'deep_merge'
+gem 'html-proofer', '3.19.4'
+gem 'jekyll', '3.9.3'
+gem 'jekyll-open-sdg-plugins', '2.3.0'
+gem 'jekyll-remote-theme'
+gem 'kramdown-parser-gfm'
+gem 'webrick'
+
+group :development do
+  gem 'jekyll-tailwindcss'
+end

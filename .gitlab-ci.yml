@@ -1,0 +1,22 @@
+# The Docker image that will be used to build your app
+image: ruby:3.2.2
+
+# Functions that should be executed before the build script is run
+before_script:
+  - git submodule update --init --remote
+  - gem install bundler
+  - bundle config path vendor/bundle
+  - bundle install
+  - chmod +x copy_handlungsfelder.sh
+  - ./copy_handlungsfelder.sh   
+
+pages:
+  script:
+    - bundle exec jekyll build -d public
+  artifacts:
+    paths:
+      - public
+  rules:
+    # Dies stellt sicher, dass nur Pushes auf den Default-Branch eine Pages-Bereitstellung auslösen
+    - if: $CI_COMMIT_REF_NAME == $CI_DEFAULT_BRANCH
+
