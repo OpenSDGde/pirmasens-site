@@ -89,8 +89,6 @@ footer_language_toggle: none
 
 
 footer_menu:
-  - path: https://gitlab.opencode.de/open-sdg-germany/pirmasens-data/de/zip/all_indicators.zip
-    translation_key: Download
   - path: mailto:michaelmaas@pirmasens.de
     translation_key: menu.contact_us
   - path: /about/cookies-and-privacy/
@@ -113,13 +111,13 @@ frontpage_handlungsfelder_title:
 
 
 frontpage_cards:
-  - title: Nachhaltigkeitsstrategie Pirmasens 2030
+  - title: "Nachhaltigkeitsstrategie Pirmasens 2030"
     href: "https://gitlab.opencode.de/open-sdg-germany/pirmasens-data/-/raw/develop/public/uploads/Nachhaltigkeitsstrategie-Pirmasens.pdf?ref_type=heads" 
     thumbnail_src: /Nachhaltigkeitsstrategie-Pirmasens.png
-  - title: SDG Biodiversität
+  - title: "SDG Biodiversität"
     href: "https://gitlab.opencode.de/open-sdg-germany/pirmasens-data/-/raw/develop/public/uploads/SDG_Biodiv_05.12.2023.pdf?ref_type=heads&inline=false"
     thumbnail_src: /SDG_Biodiv_05.12.2023.png
-  - title: SDG Monitoring
+  - title: "SDG Monitoring"
     href: "https://gitlab.opencode.de/open-sdg-germany/pirmasens-data/-/raw/develop/public/uploads/SDG_Monitoring_09.06.2024.pdf?ref_type=heads&inline=false"
     thumbnail_src: /SDG_Monitoring_09.06.2024.png
 
@@ -143,12 +141,6 @@ menu:
   - path: /faq
     translation_key: menu.faq
 
-menu_top:
-  - path: /leichte-sprache
-    translation_key: menu.plain_german
-  - path: /reiter-english
-    translation_key: English
-
 metadata_tabs:
   - scope: national
     title: Metadaten
@@ -165,5 +157,5 @@ url: ""
 environment: staging
 
 heroimage:
-  src: "HEADER_DashKon_ohne Schrift_Neu.png"
-  alt: "Hero Image City Goettingen"
+  src: "Landgraf_Exe_Rathaus_1.JPG"
+  alt: "Hero Image Pirmasens"
