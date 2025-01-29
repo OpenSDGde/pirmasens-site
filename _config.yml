@@ -8,7 +8,7 @@ remote_data_prefix: https://open-sdg-germany.usercontent.opencode.de/pirmasens-d
 data_edit_url: http://prose.io/#OpenSDGde/primasens-data/edit/develop/data/indicator_[id].csv
 metadata_edit_url: http://prose.io/#OpenSDGde/primasens-data/edit/develop/meta/[id].md
 
-# Text zu Handlungsfelder 
+# Text zu Handlungsfelder
 # fields to change: title, leitsatz, hf-goals
 
 email_contacts:
@@ -17,7 +17,7 @@ email_contacts:
   functional: michaelmaas@pirmasens.de
 
 
-# 
+#
 # other settings are alphabetically ordered:
 
 collections:
@@ -38,7 +38,7 @@ cookie_consent_form:
 country:
   name: Pirmasens
   adjective: Pirmasens
-  
+
 create_indicators:
   layout: indicator
 create_goals:
@@ -112,7 +112,7 @@ frontpage_handlungsfelder_title:
 
 frontpage_cards:
   - title: "Nachhaltigkeitsstrategie Pirmasens 2030"
-    href: "https://gitlab.opencode.de/open-sdg-germany/pirmasens-data/-/raw/develop/public/uploads/Nachhaltigkeitsstrategie-Pirmasens.pdf?ref_type=heads" 
+    href: "https://gitlab.opencode.de/open-sdg-germany/pirmasens-data/-/raw/develop/public/uploads/Nachhaltigkeitsstrategie-Pirmasens.pdf?ref_type=heads"
     thumbnail_src: /Nachhaltigkeitsstrategie-Pirmasens.png
   - title: "SDG Biodiversität"
     href: "https://gitlab.opencode.de/open-sdg-germany/pirmasens-data/-/raw/develop/public/uploads/SDG_Biodiv_05.12.2023.pdf?ref_type=heads&inline=false"
@@ -159,3 +159,7 @@ environment: staging
 heroimage:
   src: "Landgraf_Exe_Rathaus_1.JPG"
   alt: "Hero Image Pirmasens"
+
+page:
+  logo:
+    src: "PSLOGO.jpg"
