@@ -1,3 +1,175 @@
+@charset "UTF-8";
+/* goal-navigation-top */
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap");
+#tabbtn-1 {
+  width: 18%;
+  padding: 0.75rem 0rem;
+  margin-right: 1px;
+  margin-top: 1px;
+  font-size: calc(5px + 0.75vw);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #007ebe;
+  border-radius: 10px 10px 0 0;
+  background-color: #fcfcfc;
+  border: none;
+  box-shadow: 5px 5px 5px 0px rgba(5, 5, 5, 0.2); }
+
+#tabbtn-1:hover {
+  color: white !important;
+  background-color: #007ebe !important;
+  box-shadow: 5px 5px 5px 0px rgba(5, 5, 5, 0.2) !important; }
+
+#tabbtn-1:focus,
+#tabbtn-1.active {
+  color: white !important;
+  background-color: #007ebe !important;
+  box-shadow: 5px 5px 5px 0px rgba(5, 5, 5, 0.05) !important; }
+
+/* goal-navigation-top */
+#tabbtn-2 {
+  width: 18%;
+  padding: 0.75rem 0rem;
+  margin-right: 1px;
+  margin-top: 1px;
+  font-size: calc(5px + 0.75vw);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #65b448;
+  border-radius: 10px 10px 0 0;
+  background-color: #fcfcfc;
+  border: none;
+  box-shadow: 5px 5px 5px 0px rgba(5, 5, 5, 0.2); }
+
+#tabbtn-2:hover {
+  color: white !important;
+  background-color: #65b448 !important;
+  box-shadow: 5px 5px 5px 0px rgba(5, 5, 5, 0.2) !important; }
+
+#tabbtn-2:focus,
+#tabbtn-2.active {
+  color: white !important;
+  background-color: #65b448 !important;
+  box-shadow: 5px 5px 5px 0px rgba(5, 5, 5, 0.05) !important; }
+
+/* goal-navigation-top */
+#tabbtn-3 {
+  width: 18%;
+  padding: 0.75rem 0rem;
+  margin-right: 1px;
+  margin-top: 1px;
+  font-size: calc(5px + 0.75vw);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #f8b715;
+  border-radius: 10px 10px 0 0;
+  background-color: #fcfcfc;
+  border: none;
+  box-shadow: 5px 5px 5px 0px rgba(5, 5, 5, 0.2); }
+
+#tabbtn-3:hover {
+  color: white !important;
+  background-color: #f8b715 !important;
+  box-shadow: 5px 5px 5px 0px rgba(5, 5, 5, 0.2) !important; }
+
+#tabbtn-3:focus,
+#tabbtn-3.active {
+  color: white !important;
+  background-color: #f8b715 !important;
+  box-shadow: 5px 5px 5px 0px rgba(5, 5, 5, 0.05) !important; }
+
+/* goal-navigation-top */
+#tabbtn-4 {
+  width: 18%;
+  padding: 0.75rem 0rem;
+  margin-right: 1px;
+  margin-top: 1px;
+  font-size: calc(5px + 0.75vw);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #ed6d29;
+  border-radius: 10px 10px 0 0;
+  background-color: #fcfcfc;
+  border: none;
+  box-shadow: 5px 5px 5px 0px rgba(5, 5, 5, 0.2); }
+
+#tabbtn-4:hover {
+  color: white !important;
+  background-color: #ed6d29 !important;
+  box-shadow: 5px 5px 5px 0px rgba(5, 5, 5, 0.2) !important; }
+
+#tabbtn-4:focus,
+#tabbtn-4.active {
+  color: white !important;
+  background-color: #ed6d29 !important;
+  box-shadow: 5px 5px 5px 0px rgba(5, 5, 5, 0.05) !important; }
+
+/* goal-navigation-top */
+#tabbtn-5 {
+  width: 18%;
+  padding: 0.75rem 0rem;
+  margin-right: 1px;
+  margin-top: 1px;
+  font-size: calc(5px + 0.75vw);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #05afda;
+  border-radius: 10px 10px 0 0;
+  background-color: #fcfcfc;
+  border: none;
+  box-shadow: 5px 5px 5px 0px rgba(5, 5, 5, 0.2); }
+
+#tabbtn-5:hover {
+  color: white !important;
+  background-color: #05afda !important;
+  box-shadow: 5px 5px 5px 0px rgba(5, 5, 5, 0.2) !important; }
+
+#tabbtn-5:focus,
+#tabbtn-5.active {
+  color: white !important;
+  background-color: #05afda !important;
+  box-shadow: 5px 5px 5px 0px rgba(5, 5, 5, 0.05) !important; }
+
+.tablinks {
+  margin-top: 0px; }
+
+.hf-title {
+  margin-top: 10vh;
+  color: white;
+  font-weight: bold;
+  font-size: 3em; }
+
+.hf-description {
+  margin-bottom: 1vh;
+  color: white;
+  font-size: 1.5em;
+  border-bottom: 1px solid white;
+  padding-bottom: 1em; }
+
+.hf-subtitle {
+  margin-top: 10vh;
+  margin-bottom: 3vh;
+  color: white;
+  font-weight: bold;
+  font-size: 2.5rem; }
+
+.hf-thema-title {
+  margin-bottom: 0.1em;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-style: italic; }
+
+.hf-thema-text {
+  margin-bottom: 1rem;
+  color: white;
+  font-size: 1em; }
+
 /* open-sans-regular - latin */
 @font-face {
   font-family: 'Open Sans';
@@ -26,6 +198,13 @@
   font-weight: 700;
   src: local(""), url("../fonts/open-sans-v20-latin-700italic.woff2") format("woff2"), url("../fonts/open-sans-v20-latin-700italic.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */ }
+/**
+ * variables.scss
+ *
+ * This file left blank intentionally. Implementations of Open SDG can use
+ * a similarly named file to override any "default" variables in the "variables"
+ * folder.
+ */
 .js #headlineTable {
   display: none; }
 .js .no-js-language-toggle {
@@ -93,7 +272,7 @@ body.contrast-high {
   body.contrast-high a {
     color: #FFDD00; }
 
-button:focus {
+button:focus:not(.no-focus) {
   color: #0b0c0c !important;
   outline: 3px solid transparent !important;
   background-color: transparent !important;
@@ -2809,9 +2988,26 @@ body.contrast-high #search-bar-on-page button:hover {
 body.contrast-high.layout-search form input, body.contrast-high.layout-search form label {
   color: black; }
 
+/* Standard-Schrift für Fließtext */
+body,
+p,
+li {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  /* Regular */ }
+
+b {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  /* Bold */ }
+
 h1 {
   font-size: 2.5rem;
-  text-align: start; }
+  text-align: start;
+  font-family: "PT Sans", sans-serif;
+  /* Optional */
+  font-weight: 400;
+  /* Regular */ }
   @media screen and (max-width: 992px) {
     h1 {
       font-size: 2.25rem; } }
@@ -2821,7 +3017,11 @@ h1 {
 
 h2 {
   font-size: 2.1rem;
-  text-align: start; }
+  text-align: start;
+  font-family: "PT Sans", sans-serif;
+  /* Optional */
+  font-weight: 400;
+  /* Regular */ }
   @media screen and (max-width: 768px) {
     h2 {
       font-size: 1.7rem; } }
@@ -2831,14 +3031,23 @@ h2 {
 
 h3 {
   font-size: 1.9rem;
-  text-align: start; }
+  text-align: start;
+  font-family: "PT Sans", sans-serif;
+  /* Optional */
+  font-weight: 400;
+  /* Regular */ }
   @media screen and (max-width: 768px) {
     h3 {
       font-size: 1.5rem; } }
 
-@media screen and (max-width: 768px) {
-  h4 {
-    font-size: 1rem; } }
+h4 {
+  font-family: "PT Sans", sans-serif;
+  /* Optional */
+  font-weight: 400;
+  /* Regular */ }
+  @media screen and (max-width: 768px) {
+    h4 {
+      font-size: 1rem; } }
 
 #main-content .goal-tiles .goal-tile > a:focus {
   outline: 0px transparent solid !important; }
@@ -2864,7 +3073,7 @@ header {
   position: sticky;
   top: 0;
   background-color: white;
-  z-index: 100; }
+  z-index: 49; }
 
 .header-container {
   padding-right: 32px;
@@ -3035,196 +3244,28 @@ h1.header {
   margin-bottom: 0px; }
 
 /*1-1. frontpage */
-@media (min-width: 992px) {
-  .main-image {
-    padding-bottom: 5rem; }
-    .main-image img {
-      max-width: 100%; } }
-@media (max-width: 992px) {
-  .main-image {
-    padding-bottom: 1rem; }
-    .main-image img {
-      height: calc(30vw + 80px); } }
+.main-image {
+  margin-top: 1rem;
+  /* Stile für größere Bildschirme */
+  /* Stile für kleinere Bildschirme */ }
+  .main-image img {
+    width: 100%;
+    height: 60%;
+    display: block;
+    /* Verhindert unerwünschte Abstände unter dem Bild */
+    object-fit: cover;
+    object-position: right; }
+  @media (min-width: 992px) {
+    .main-image {
+      padding-bottom: 5rem; } }
+  @media (max-width: 992px) {
+    .main-image {
+      padding-bottom: 1rem; } }
 
 .site-intro {
   background: none !important;
   padding-right: 0px !important;
   text-align: justify; }
-
-/*1-2. Handlungsfelder*/
-#frontpage-handlungsfelder-Umwelt,
-#frontpage-handlungsfelder-Leben,
-#frontpage-handlungsfelder-Vielfalt,
-#frontpage-handlungsfelder-Bildung {
-  display: none; }
-
-/* goal-navigation-top */
-#tabbtn-1 {
-  width: 18%;
-  padding: 0.75rem 0rem;
-  margin-right: 1px;
-  font-size: calc(5px + 0.75vw);
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  color: #007ebe;
-  border-radius: 10px 10px 0 0;
-  background-color: #fcfcfc;
-  border: none;
-  box-shadow: 5px 5px 5px 0px rgba(5, 5, 5, 0.2); }
-
-#tabbtn-1:hover {
-  color: white !important;
-  background-color: #007ebe !important;
-  box-shadow: 5px 5px 5px 0px rgba(5, 5, 5, 0.2) !important; }
-
-#tabbtn-1:focus,
-#tabbtn-1.active {
-  color: white !important;
-  background-color: #007ebe !important;
-  box-shadow: 5px 5px 5px 0px rgba(5, 5, 5, 0.05) !important; }
-
-/* goal-navigation-top */
-#tabbtn-2 {
-  width: 18%;
-  padding: 0.75rem 0rem;
-  margin-right: 1px;
-  font-size: calc(5px + 0.75vw);
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  color: #65b448;
-  border-radius: 10px 10px 0 0;
-  background-color: #fcfcfc;
-  border: none;
-  box-shadow: 5px 5px 5px 0px rgba(5, 5, 5, 0.2); }
-
-#tabbtn-2:hover {
-  color: white !important;
-  background-color: #65b448 !important;
-  box-shadow: 5px 5px 5px 0px rgba(5, 5, 5, 0.2) !important; }
-
-#tabbtn-2:focus,
-#tabbtn-2.active {
-  color: white !important;
-  background-color: #65b448 !important;
-  box-shadow: 5px 5px 5px 0px rgba(5, 5, 5, 0.05) !important; }
-
-/* goal-navigation-top */
-#tabbtn-3 {
-  width: 18%;
-  padding: 0.75rem 0rem;
-  margin-right: 1px;
-  font-size: calc(5px + 0.75vw);
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  color: #f8b715;
-  border-radius: 10px 10px 0 0;
-  background-color: #fcfcfc;
-  border: none;
-  box-shadow: 5px 5px 5px 0px rgba(5, 5, 5, 0.2); }
-
-#tabbtn-3:hover {
-  color: white !important;
-  background-color: #f8b715 !important;
-  box-shadow: 5px 5px 5px 0px rgba(5, 5, 5, 0.2) !important; }
-
-#tabbtn-3:focus,
-#tabbtn-3.active {
-  color: white !important;
-  background-color: #f8b715 !important;
-  box-shadow: 5px 5px 5px 0px rgba(5, 5, 5, 0.05) !important; }
-
-/* goal-navigation-top */
-#tabbtn-4 {
-  width: 18%;
-  padding: 0.75rem 0rem;
-  margin-right: 1px;
-  font-size: calc(5px + 0.75vw);
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  color: #ed6d29;
-  border-radius: 10px 10px 0 0;
-  background-color: #fcfcfc;
-  border: none;
-  box-shadow: 5px 5px 5px 0px rgba(5, 5, 5, 0.2); }
-
-#tabbtn-4:hover {
-  color: white !important;
-  background-color: #ed6d29 !important;
-  box-shadow: 5px 5px 5px 0px rgba(5, 5, 5, 0.2) !important; }
-
-#tabbtn-4:focus,
-#tabbtn-4.active {
-  color: white !important;
-  background-color: #ed6d29 !important;
-  box-shadow: 5px 5px 5px 0px rgba(5, 5, 5, 0.05) !important; }
-
-/* goal-navigation-top */
-#tabbtn-5 {
-  width: 18%;
-  padding: 0.75rem 0rem;
-  margin-right: 1px;
-  font-size: calc(5px + 0.75vw);
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  color: #05afda;
-  border-radius: 10px 10px 0 0;
-  background-color: #fcfcfc;
-  border: none;
-  box-shadow: 5px 5px 5px 0px rgba(5, 5, 5, 0.2); }
-
-#tabbtn-5:hover {
-  color: white !important;
-  background-color: #05afda !important;
-  box-shadow: 5px 5px 5px 0px rgba(5, 5, 5, 0.2) !important; }
-
-#tabbtn-5:focus,
-#tabbtn-5.active {
-  color: white !important;
-  background-color: #05afda !important;
-  box-shadow: 5px 5px 5px 0px rgba(5, 5, 5, 0.05) !important; }
-
-.tabs-text {
-  display: block; }
-  @media screen and (max-width: 576px) {
-    .tabs-text {
-      display: none; } }
-
-.hf-title {
-  margin-top: 10vh;
-  color: white;
-  font-weight: bold;
-  font-size: 3em; }
-
-.hf-description {
-  margin-bottom: 1vh;
-  color: white;
-  font-size: 1.5em;
-  border-bottom: 1px solid white;
-  padding-bottom: 1em; }
-
-.hf-subtitle {
-  margin-top: 10vh;
-  margin-bottom: 3vh;
-  color: white;
-  font-weight: bold;
-  font-size: 2.5rem; }
-
-.hf-thema-title {
-  margin-bottom: 0.1em;
-  color: white;
-  font-size: 1.2rem;
-  font-weight: bold;
-  font-style: italic; }
-
-.hf-thema-text {
-  margin-bottom: 1rem;
-  color: white;
-  font-size: 1em; }
 
 .flex-grid {
   width: 100%;
@@ -3268,7 +3309,7 @@ h1.header {
   height: auto;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  background-color: #ff8c00; }
+  background-color: #FABE1E; }
   .card .cont {
     display: table-cell;
     vertical-align: middle;
@@ -3284,7 +3325,7 @@ h1.header {
     object-fit: cover; }
 
 .card:hover {
-  background-color: #4b7d9d; }
+  background-color: #007D30; }
 
 .carousel-card-prev,
 .carousel-card-next {
@@ -4038,7 +4079,7 @@ h1.header {
 #toolbar {
   margin-top: 1.5rem !important; }
 
-button[role=tab]:focus {
+button[role="tab"]:focus {
   background-color: transparent !important; }
 
 /*#4. goal-navigation-bottom */
@@ -4153,7 +4194,7 @@ ul {
   margin-bottom: 0px; }
 
 #kooperation {
-  background-color: #003E59;
+  background-color: #00A5D7;
   color: white;
   padding-top: 30px;
   padding-bottom: 15px;
@@ -4199,3 +4240,10 @@ h5 {
 [href]:focus {
   box-shadow: 0px 0px 0px 0px transparent !important;
   background-color: transparent !important; }
+
+/**
+ * custom.scss
+ *
+ * This file left blank intentionally. Implementations of Open SDG can use
+ * a similarly named file for custom styles.
+ */

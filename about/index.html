@@ -2,13 +2,14 @@
 <html lang="de" class="no-js">
     <head>
         <meta charset="utf-8">
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+        <script src="/pirmasens-site/assets/js/header.bundle.js"></script>
+        <script src="/pirmasens-site/assets/js/modernizr.min.js"></script>
         <script>
 // This is where we initialise any global variables, namespaced in "opensdg".
 var opensdg = {
 
   // A base URL for asynchronous calls to SDG data.
-  remoteDataBaseUrl: 'https://opensdgde.github.io/pirmasens-data/de',
+  remoteDataBaseUrl: 'https://open-sdg-germany.usercontent.opencode.de/pirmasens-data/de',
 
   chartConfigAlterations: [],
   // A hook which can be used to modify the configuration for Chart.js.
@@ -137,7 +138,8 @@ var translations = {
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
-        <link rel="stylesheet" href="/pirmasens-site/assets/css/style.css?v=20250114123814">
+        <link rel="stylesheet" href="/pirmasens-site/assets/css/style.css?v=20250130144552">
+        <link rel="stylesheet" href="/pirmasens-site/assets/css/tailwind.css?v=20250130144552">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -179,19 +181,15 @@ layout-page
         <!-- header logo and lower navbar -->
         <div class="row g-0 w-100">
             <div class="col align-self-center">
-                <a href="https://nachhaltigkeitsagenda-ingolstadt.de/" id="home" aria-label="Zur Homepage gehen" title="Zur Homepage gehen" target="_blank">
-                    <img src="/pirmasens-site/assets/img/SDG_logo.png" alt="Nachhaltigkeitsagenda Ingolstadt" style="width: 100%">      
+                <a href="https://pirmasens.de/" id="home" aria-label="Zur Homepage gehen" title="Zur Homepage gehen" target="_blank">
+                    <img src="/pirmasens-site/assets/img/SDG_logo.png" alt="Nachhaltigkeitsagenda Pirmasens" style="width: 100%">      
                 </a>
             </div>
             <div class="col align-self-center">
 
                 <!-- header page-top navbar -->
                 <div class="row justify-content-end header-navigation-top">
-                    <li class="page-top-navbar" style="width:fit-content; list-style-type: none; padding-bottom: 20px;">
-    <a id="page-top-navbar-item" href="/pirmasens-site/leichte-sprache"  target="">Leichtes Deutsch</a>
-</li><li class="page-top-navbar" style="width:fit-content; list-style-type: none; padding-bottom: 20px;">
-    <a id="page-top-navbar-item" href="/pirmasens-site/reiter-english"  target="">English</a>
-</li>
+                    
                 </div>
 
                 <div class="navbar navbar-expand-lg navbar-dark align-items-center" id="narbar-container">
@@ -268,11 +266,7 @@ layout-page
     <a class="container nav-link" href="/pirmasens-site/faq"  target="">FAQ</a>
 </li></ul>
     
-        <ul class="navbar-nav" id="menu"><li class="nav-item ">
-    <a class="container nav-link" href="/pirmasens-site/leichte-sprache"  target="">Leichtes Deutsch</a>
-</li><li class="nav-item ">
-    <a class="container nav-link" href="/pirmasens-site/reiter-english"  target="">English</a>
-</li></ul>
+        
     </div>
 </div>
 
@@ -298,28 +292,27 @@ layout-page
         
 
 
-    <p>Am 27. Februar 2019 beschloss der Ingolstädter Stadtrat die Entwicklung einer Nachhaltigkeitsagenda. Um diese Bestrebungen zu untermauern, ist die Stadt Ingolstadt mit der Unterzeichnung der Musterresolution „2030-Agenda für Nachhaltige Entwicklung - Nachhaltigkeit auf kommunaler Ebene gestalten“ am 23.07.2020 eine Selbstverpflichtung eingegangen: Die globalen Nachhaltigkeitsziele sollen auf kommunaler Ebene angegangen werden. Basierend auf dem Leitbild der 17 globalen Ziele für nachhaltige Entwicklung (Sustainable Development Goals; SDGs) hat die Stadt Ingolstadt in einem Gemeinschaftsprojekt eine Nachhaltigkeitsstrategie entwickelt. Bürgerinnen und Bürger, alle gesellschaftlichen Gruppierungen, Behörden, Wissenschaft, Wirtschaft, Sozial- und Umweltverbände haben an dieser Zukunftsvision mitgewirkt. Als Grundlage für die jetzige Strategie diente eine im Herbst 2019 durchgeführte Bestandsaufnahme, die sich an den 17 SDGs orientierte. Im Rahmen von Workshops mit Mitarbeitenden aus der Stadtverwaltung, Beteiligungsunternehmen und Mitgliedern des Stadtrates ist 2020 ein erstes Zielmodell mit Indikatoren für Ingolstadt entstanden. Darauf aufbauend wurden in einem nächsten Schritt fünf Handlungsfelder und 15 Schwerpunktthemen für Ingolstadt erarbeitet. Diese bildeten den Rahmen für den Dialogprozess mit dem Titel „Wie wollen wir leben?“. Mit den externen Anspruchsgruppen der Stadt sowie den Bürger/-innen wurden zwischen Sommer 2021 und Sommer 2022 Visionen für 2045 entwickelt, welche sich auf die fünf Handlungsfelder der Nachhaltigkeitsagenda Ingolstadt aufteilen:<br /> 
-<br /></p>
-<ul>
-  <li>Wirtschaft und Innovation</li>
-  <li>Klima, Umwelt und Energie</li>
-  <li>Nachhaltiges Leben im Alltag</li>
-  <li>Bildung und Kultur</li>
-  <li>Vielfalt und Engagement</li>
-</ul>
-<p><br />
-Die gemeinsame Erarbeitung von Meilensteinen für Teilziele und Maßnahmenwünsche zur Zielerreichung ergänzten den offenen Dialog mit der Bevölkerung.  Am 28. Februar 2023 wurde schließlich die Strategie zeitgleich mit dem 1. Nachhaltigkeitsbericht der Stadt Ingolstadt verabschiedet. Die entstandenen Maßnahmenwünsche werden derzeit geprüft, ob diese umsetzbar sind oder sogar bereits durch die Verwaltung bearbeitet werden. Ein Maßnahmen-Monitoring soll in Zukunft einen Überblick verschaffen, welche Maßnahmen bereits existieren oder geplant sind und auf die Zielerreichung der Nachhaltigkeitsagenda Ingolstadt einzahlen.<br /> 
-<br /></p>
-<h3>Messung der Zielerreichung</h3>
-<p>Die Nachhaltigkeitsstrategie der Stadt Ingolstadt, umfasst neben den aktuell 80 Zielen und der Umsetzung von Maßnahmen auch ein Indikatoren-basiertes Monitoring. Festgelegt wurden 98 Indikatoren, welche einen Überblick über den aktuellen Stand der Zielerreichung geben sollen. Im Zuge der Überarbeitung der Nachhaltigkeitsstrategie sind, wurde das Indikatoren-Set erweitert und angepasst. Es umfasst nun 118 Indikatoren. Dieses Monitoring finden Sie hier in einem  webbasierten Format. Die Indikatoren werden im weiteren Prozess soweit erforderlich stetig angepasst und wurden im Rahmen des Förderprojektes “Dashboard und Monitoring für Kommunale Nachhaltigkeitsstrategien” (DashKon) online veröffentlicht. Bei der Auswahl der SDG-Indikatoren wurde sich vor allem an gängigen (in der Literatur verbreiteten) Nachhaltigkeitsindikatoren sowie an den Indikatoren des Berichtsrahmens Nachhaltige Kommune (BNK) des Rats für Nachhaltige Entwicklung orientiert und durch die Verwaltung in einen Kontext zur Nachhaltigkeitsstrategie Ingolstadts gesetzt. Neben öffentlich zugänglichen Quellen finden dabei auch zahlreiche amtliche Daten Verwendung.<br />
-<br /></p>
-<h3>Webseite Open-SDG</h3>
-<p>Die Webseite selbst basiert auf der Plattform Open-SDG und wurde in Zusammenarbeit mit Studentinnen der Hochschule für Technik und Wirtschaft Berlin (HTW Berlin) entwickelt. Ein großer Dank gilt deshalb: Marlene Bueltemann, Grace Dodi, Lucia Feddersen, Christina Gottschalk, Neslihan Kilic, Mia Lohe, Mahulome Pede and Hatice Pinar. An der wissenschaftlichen Begleitung des Projekts waren Prof. Florian Koch, Sarah Beyer und Chih-Yu Chen von der Hochschule für Technik und Wirtschaft Berlin beteiligt.<br />
-<br /></p>
-<h3>SDG-DashKon</h3>
-<p>Das gesamte Vorhaben wurde von der Servicestelle Kommunen in der Einen Welt (SKEW) gefördert. Das Projekt SDG-DashKon baut auf den Erfahrungen der Projekte „SDG-Dashboard“, INDIKON und DATAKON der letzten Jahre auf. Das SDG-DashKon ist ein Gemeinschaftsprojekt der SKEW in Kooperation mit der HTW Berlin und der Forschungsstätte der Evangelischen Studiengemeinschaft e.V. FEST.<br />
-<br />
-Weitere Informationen zum Projekt SDG-DashKon unter <a href="https://skew.engagement-global.de/sdg-dashkon.html">SKEW</a></p>
+    <p>Die kreisfreie Stadt Pirmasens liegt am Westrand des Pfälzerwaldes und ist Verwaltungssitz des Landkreises Südwestpfalz. Sie verfügt mit ihren ca. 40.000 Einwohnern über eine mittelständische Wirtschaft mit einzelnen weltweit tätigen Industrieunternehmen.</p>
+
+<p>Pirmasens war lange das Zentrum der deutschen Schuhindustrie bis sie gegenüber den niedrigeren ausländischen Produktionskosten nicht mehr konkurrenzfähig war. Daraufhin mussten viele Schuhfabriken geschlossen werden. Außerdem zog das amerikanische Militär aus Pirmasens ab, wodurch rund 10.000 Einwohner die Stadt verlassen haben und 4.000 Arbeitsplätze verloren gegangen sind. Insgesamt wurde ein Verlust von 19.000 Arbeitsplätzen verzeichnet, so dass die Arbeitslosenquote 2002 bei 14,9 % lag und im Juli 2021 noch immer 11,3% betragen hat.</p>
+
+<p>Die kreisfreie Stadt Pirmasens hat eine Bodenfläche von rund 61,37 km2, wovon ein Drittel bewaldet ist.</p>
+
+<p>Sie befindet sich im größten zusammenhängenden Waldgebiet Deutschlands und ist in sieben Stadtbezirke - Erlenbrunn, Fehrbach, Gersbach, Hengsberg, Niedersimten, Windsberg und Winzeln – gegliedert.</p>
+
+<p>Die Analyse der wirtschaftlichen Rahmenbedingungen zeigt, dass Pirmasens bei der Wirtschaftsleistung je Kopf im Laufe der Jahre gegenüber anderen Kommunen zurückgefallen ist. Ursache dafür ist eine schwache Entwicklung der Wertschöpfung je Arbeitsplatz, während sich die Arbeitsplatzdichte – also die Relation aus Erwerbstätigen und Bevölkerungszahl – ähnlich wie in anderen Kommunen entwickelt hat.</p>
+
+<p>Gewichtige Ursache der geringen Wertschöpfung je Arbeitsplatz dürfte die Struktur der angebotenen Arbeitsplätze und die Qualifikationsstruktur der Beschäftigten sein. So ist der Anteil von Beschäftigten mit akademischem Abschluss und in Hochtechnologiebereichen geringer als in von der Größe her vergleichbaren Kommunen. Aus alledem resultiert eine unterdurchschnittliche Entwicklung der Primäreinkommen je Kopf.</p>
+
+<p>Belastend auf die wirtschaftliche Entwicklung wirkt die Demografie. Im Zuge des Bedeutungsverlusts der Schuhindustrie und des Schließens der Garnison der US-Armee hat Pirmasens etwa ein Drittel seiner Bevölkerung verloren. Einher ging dies zum einen mit einer Alterung der Bevölkerung, die sich darin äußert, dass die Erwerbsquote (Bevölkerung im Erwerbsalter in Relation zur Bevölkerung insgesamt) gesunken ist.</p>
+
+<p>Zum anderen nahm – da Personen mit guten Arbeitsmarktchancen in der Regel mobiler sind – der Anteil der Bevölkerung zu, die auf Sozialleistungen angewiesen ist.</p>
+
+<p>Die Analyse der finanzwirtschaftlichen Rahmenbedingungen ergibt einen erheblichen Konsolidierungsbedarf.</p>
+
+<p>Die ungünstige sozioökonomische Entwicklung schlägt sich in einer strukturellen Einnahmeschwäche der Stadt nieder. Beim Gemeindeanteil der Einkommensteuer sind sowohl die Zahlungen je Steuerpflichtigen als auch die Relation aus Steuerzahlern und Bevölkerung geringer als in anderen Kommunen. Bei der Gewerbesteuer ist die Steuerproduktivität ebenfalls unterdurchschnittlich.</p>
+
+<p>Ein wesentlicher Teil der Einnahmen von Kommunen resultiert aus Schlüsselzuweisungen im Rahmen des kommunalen Finanzausgleichs. Dieser wurde in Rheinland-Pfalz zwar 2013 reformiert, so dass Pirmasens seitdem vermehrt Landesmittel zufließen. Hauptnutznießer der damaligen Reform waren aber eher finanzstarke Kommunen in RLP, da die Schlüsselzuweisungen für Sozialleistungen unabhängig von der Finanzkraft erfolgen. Dies führte dazu, dass Pirmasens als finanzschwache Kommune mit hohen Soziallasten einen zunehmenden Teil seiner Steuereinnahmen für Sozialleistungen aufbringen muss.</p>
 
 
 
@@ -372,12 +365,7 @@ Weitere Informationen zum Projekt SDG-DashKon unter <a href="https://skew.engage
                         
                             <li style="color:white;margin: 15px;font-weight: bold;">
                                     
-                                        <a href="https://StadtIngolstadt.github.io/sdg-data/de/zip/all_indicators.zip" target="_blank" style="text-decoration: none;color:white;margin: 10px; padding:0.5rem 0rem; font-size: 1.1rem; font-weight: 600;">Download</a>
-                                        
-                                    </li>
-                            <li style="color:white;margin: 15px;font-weight: bold;">
-                                    
-                                        <a href="mailto:nachhaltigkeit@ingolstadt.de" target="_blank" style="text-decoration: none;color:white;margin: 10px; padding:0.5rem 0rem;font-size: 1.1rem; font-weight: 600;">Kontakt</a>
+                                        <a href="mailto:michaelmaas@pirmasens.de" target="_blank" style="text-decoration: none;color:white;margin: 10px; padding:0.5rem 0rem;font-size: 1.1rem; font-weight: 600;">Kontakt</a>
                                     
                                     </li>
                             <li style="color:white;margin: 15px;font-weight: bold;">
@@ -587,12 +575,15 @@ if (allRequired) {
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Suche';</script>
 
-<script src='/pirmasens-site/assets/js/sdg.js?v=20250114123814'></script>
+<script src='/pirmasens-site/assets/js/sdg.js?v=20250130144552'></script>
 
 
     
     
-    <script src="/pirmasens-site/assets/js/custom.js?v=20250114123814"></script><script>
+    <script src="/pirmasens-site/assets/js/custom.js?v=20250130144552"></script>
+    
+    
+    <script src="/pirmasens-site/assets/js/tpwd.js?v=20250130144552"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>

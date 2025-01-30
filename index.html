@@ -1,19 +1,15 @@
-<head>
-    <script src="https://kit.fontawesome.com/7ee11bdcfb.js" crossorigin="anonymous"></script>
-</head>
-
-<html>
-<!DOCTYPE html>
+  <!DOCTYPE html>
 <html lang="de" class="no-js">
     <head>
         <meta charset="utf-8">
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+        <script src="/pirmasens-site/assets/js/header.bundle.js"></script>
+        <script src="/pirmasens-site/assets/js/modernizr.min.js"></script>
         <script>
 // This is where we initialise any global variables, namespaced in "opensdg".
 var opensdg = {
 
   // A base URL for asynchronous calls to SDG data.
-  remoteDataBaseUrl: 'https://opensdgde.github.io/pirmasens-data/de',
+  remoteDataBaseUrl: 'https://open-sdg-germany.usercontent.opencode.de/pirmasens-data/de',
 
   chartConfigAlterations: [],
   // A hook which can be used to modify the configuration for Chart.js.
@@ -142,7 +138,8 @@ var translations = {
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
-        <link rel="stylesheet" href="/pirmasens-site/assets/css/style.css?v=20250114123814">
+        <link rel="stylesheet" href="/pirmasens-site/assets/css/style.css?v=20250130144552">
+        <link rel="stylesheet" href="/pirmasens-site/assets/css/tailwind.css?v=20250130144552">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -168,8 +165,8 @@ layout-frontpage
 ">
 <!-- <div class="container"> -->
 
-<!-- custom header. Design specified in _sass/custom.scss -->
-<script>translations['header'] = {"alpha":"Alpha-Version","default_contrast":"Standard kontrast","disable_high_contrast":"Hoher Kontrast deaktivieren","disclaimer":"Diese Seite befindet sich im Entwicklungsstadium.Wir freuen uns über Ihre <a href=\"mailto:%email_contacts.suggestions\">Kommentare</a>.","enable_high_contrast":"Aktivieren Sie hohen Kontrast","hide_menu":"Navigationsmenü ausblenden","high_contrast":"Hoher kontrast","internet_explorer_message":"Wir haben festgestellt, dass Sie den Internet Explorer verwenden, um diese Website zu besuchen. Der Internet Explorer wird von Microsoft nicht mehr unterstützt. Aus diesem Grund hat diese Website ebenfalls die Unterstützung für alle Versionen des Internet Explorers eingestellt, einige Bereiche auf dieser Website werden daher nicht oder nur eingeschränkt funktionieren. Bitte verwenden Sie einen modernen Browser wie Edge, Chrome, Firefox oder Safari. Wenn Sie Schwierigkeiten haben, einen anderen Browser zu installieren oder darauf zuzugreifen, wenden Sie sich bitte an Ihr IT-Supportteam.","internet_explorer_message_title":"Der Internet-Browser wird nicht mehr unterstützt","logo_title":"Zur Homepage gehen","show_menu":"Navigationsmenü anzeigen","skip_link":"Zum Hauptinhalt springen","tag_line":"17 Ziele, um unsere Welt zu verändern","toggle_menu":"Menü umschalten. Klicken Sie darauf, um das Menü zu erweitern oder zu reduzieren.","toggle_search":"Umschalten der Suche. Klicken Sie darauf, um die Suchleiste ein- oder auszublenden."};</script>
+  <!-- custom header. Design specified in _sass/custom.scss -->
+  <script>translations['header'] = {"alpha":"Alpha-Version","default_contrast":"Standard kontrast","disable_high_contrast":"Hoher Kontrast deaktivieren","disclaimer":"Diese Seite befindet sich im Entwicklungsstadium.Wir freuen uns über Ihre <a href=\"mailto:%email_contacts.suggestions\">Kommentare</a>.","enable_high_contrast":"Aktivieren Sie hohen Kontrast","hide_menu":"Navigationsmenü ausblenden","high_contrast":"Hoher kontrast","internet_explorer_message":"Wir haben festgestellt, dass Sie den Internet Explorer verwenden, um diese Website zu besuchen. Der Internet Explorer wird von Microsoft nicht mehr unterstützt. Aus diesem Grund hat diese Website ebenfalls die Unterstützung für alle Versionen des Internet Explorers eingestellt, einige Bereiche auf dieser Website werden daher nicht oder nur eingeschränkt funktionieren. Bitte verwenden Sie einen modernen Browser wie Edge, Chrome, Firefox oder Safari. Wenn Sie Schwierigkeiten haben, einen anderen Browser zu installieren oder darauf zuzugreifen, wenden Sie sich bitte an Ihr IT-Supportteam.","internet_explorer_message_title":"Der Internet-Browser wird nicht mehr unterstützt","logo_title":"Zur Homepage gehen","show_menu":"Navigationsmenü anzeigen","skip_link":"Zum Hauptinhalt springen","tag_line":"17 Ziele, um unsere Welt zu verändern","toggle_menu":"Menü umschalten. Klicken Sie darauf, um das Menü zu erweitern oder zu reduzieren.","toggle_search":"Umschalten der Suche. Klicken Sie darauf, um die Suchleiste ein- oder auszublenden."};</script>
 
 <a class="sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Zum Hauptinhalt springen</a>
 <div class="container internet-explorer-message">
@@ -185,19 +182,15 @@ layout-frontpage
         <!-- header logo and lower navbar -->
         <div class="row g-0 w-100">
             <div class="col align-self-center">
-                <a href="https://nachhaltigkeitsagenda-ingolstadt.de/" id="home" aria-label="Zur Homepage gehen" title="Zur Homepage gehen" target="_blank">
-                    <img src="/pirmasens-site/assets/img/SDG_logo.png" alt="Nachhaltigkeitsagenda Ingolstadt" style="width: 100%">      
+                <a href="https://pirmasens.de/" id="home" aria-label="Zur Homepage gehen" title="Zur Homepage gehen" target="_blank">
+                    <img src="/pirmasens-site/assets/img/SDG_logo.png" alt="Nachhaltigkeitsagenda Pirmasens" style="width: 100%">      
                 </a>
             </div>
             <div class="col align-self-center">
 
                 <!-- header page-top navbar -->
                 <div class="row justify-content-end header-navigation-top">
-                    <li class="page-top-navbar" style="width:fit-content; list-style-type: none; padding-bottom: 20px;">
-    <a id="page-top-navbar-item" href="/pirmasens-site/leichte-sprache"  target="">Leichtes Deutsch</a>
-</li><li class="page-top-navbar" style="width:fit-content; list-style-type: none; padding-bottom: 20px;">
-    <a id="page-top-navbar-item" href="/pirmasens-site/reiter-english"  target="">English</a>
-</li>
+                    
                 </div>
 
                 <div class="navbar navbar-expand-lg navbar-dark align-items-center" id="narbar-container">
@@ -274,11 +267,7 @@ layout-frontpage
     <a class="container nav-link" href="/pirmasens-site/faq"  target="">FAQ</a>
 </li></ul>
     
-        <ul class="navbar-nav" id="menu"><li class="nav-item ">
-    <a class="container nav-link" href="/pirmasens-site/leichte-sprache"  target="">Leichtes Deutsch</a>
-</li><li class="nav-item ">
-    <a class="container nav-link" href="/pirmasens-site/reiter-english"  target="">English</a>
-</li></ul>
+        
     </div>
 </div>
 
@@ -289,16 +278,15 @@ layout-frontpage
  -->
 
 
-<div class ="main-image">
-    <a><img src="/pirmasens-site/assets/img/HEADER_DashKon_ohne Schrift_Neu.png"></a>
-</div>
+  <div class="main-image">
+    <a><img src="/pirmasens-site/assets/img/Landgraf_Exe_Rathaus_1.JPG" alt="Hero Image Pirmasens" /></a>
+  </div>
 
-
-<div id="main-content" class="container" role="main">
+  <div id="main-content" class="container" role="main">
     
-        <div class="site-intro">
-            <h1 style="font-weight: 700;">Nachhaltigkeitsdashboard der Stadt Pirmasens</h1>
-            <div class="lead-copy"><p> <p>
+    <div class="site-intro">
+      <h1 style="font-weight: 700">Nachhaltigkeitsdashboard der Stadt Pirmasens</h1>
+      <div class="lead-copy"><p><p>
 Die Stadt Pirmasens bekennt sich zur Agenda 2030 und ihren 17 globalen Nachhaltigkeitszielen. Im Rahmen ihrer Möglichkeiten übernimmt sie Verantwortung und ergreift Maßnahmen 
 für eine nachhaltige Entwicklung vor Ort. Nur wenn Wirtschaft, Ökologie und soziale 
 Gerechtigkeit in Einklang miteinander stehen, kann eine echte Nachhaltigkeit 
@@ -331,22 +319,19 @@ Steuerungsinstrument bei der fachbereichsübergreifenden Zusammenarbeit für
 eine nachhaltige Entwicklung der Stadt Pirmasens.
 </p>
 </p></div>
-        </div>
-    
-
-    
+    </div>
+     
     <div class="frontpage-goals-grid">
+      
+      <h2 class="frontpage-goals-grid-title" style="font-size: 32px; font-weight: 700">
+        Daten für die nachhaltigen Entwicklungsziele (SDGs) in Pirmasens
+      </h2>
+       
+      <div class="frontpage-goals-grid-description" style="font-size: 22px">
+        <p>Klicken Sie auf die einzelnen Ziele, um die Daten unserer lokalen Indikatoren für nachhaltige Entwicklung anzuzeigen.</p>
 
-        
-        <h2 class="frontpage-goals-grid-title" style="font-size: 32px; font-weight: 700;">Daten für die nachhaltigen Entwicklungsziele (SDGs) in Pirmasens</h2>
-        
-
-        
-        <div class="frontpage-goals-grid-description"  style="font-size: 22px;"><p>Klicken Sie auf die einzelnen Ziele, um die Daten unserer lokalen Indikatoren für nachhaltige Entwicklung anzuzeigen.</p>
-</div>
-        
-
-        <div class="goal-tiles">
+      </div>
+       <div class="goal-tiles">
     <div class="row g-2">
         
         <div class="col-4 col-md-2 col-lg-1 goal-tile">
@@ -443,50 +428,80 @@ eine nachhaltige Entwicklung der Stadt Pirmasens.
 </div>
     </div>
     
+  </div>
 
-</div>
-
-
-<!-- Handlungsfelder - title -->
-<div style="background-color:#efeeeb;">
-    <div class="container" style="margin-top: 3rem; padding-top: 3rem; padding-bottom: 1rem;">
-        <!-- <hr style="border: 1px solid black; margin-top: 5rem;"> -->
-        <h2 class="frontpage-goals-grid-title" style="font-size: 32px; font-weight: 700;">Handlungsfelder entdecken</h2>
-        <div class="frontpage-goals-grid-description"  style="font-size: 22px;">Die fünf Handlungsfelder der Nachhaltigkeitsagenda der Stadt Pirmasens</div>
+   
+<div style="background-color: #efeeeb">
+  <div class="container" style="margin-top: 3rem; padding-top: 3rem; padding-bottom: 1rem">
+    <!-- <hr style="border: 1px solid black; margin-top: 5rem;"> -->
+    <h2 class="frontpage-goals-grid-title" style="font-size: 32px; font-weight: 700">
+      Handlungsfelder entdecken
+    </h2>
+    <div class="frontpage-goals-grid-description" style="font-size: 22px">
+      Die fünf Handlungsfelder der Nachhaltigkeitsagenda der Stadt Pirmasens
     </div>
+  </div>
+   
+    <div class="tab container overflow-x-auto" style="margin-top: 1rem">
+  <div class="flex flex-nowrap content-start">
     
-    <!-- Handlungsfelder - expandable tabs -->
-    <div class="tab container" style="margin-top:1rem;">
-        <div class="row g-0 align-items-center justify-content-start">
-            <button class="tablinks active" id="tabbtn-1" onclick="openTab(event, 'frontpage-handlungsfelder-Wirtschaft')">
-                <i class="fa fa-gear" style="font-size:  calc(10px + 0.75vw);"></i>
-                <span class="tabs-text">Wirtschaft</span>
-            </button>
-            <button class="tablinks" id="tabbtn-2" onclick="openTab(event, 'frontpage-handlungsfelder-Umwelt')">
-                <i class='fas fa-solar-panel'style="font-size:  calc(10px + 0.75vw);"></i>
-                <span class="tabs-text">Umwelt</span>
-            </button>
-            <button class="tablinks" id="tabbtn-3" onclick="openTab(event, 'frontpage-handlungsfelder-Leben')">
-                <i class="fa fa-tree" style="font-size:  calc(10px + 0.75vw);"></i>
-                <span class="tabs-text">Leben</span>
-            </button>
-            <button class="tablinks" id="tabbtn-4" onclick="openTab(event, 'frontpage-handlungsfelder-Vielfalt')">
-                <i class="fa fa-globe" style="font-size:  calc(10px + 0.75vw);"></i>
-                <span class="tabs-text">Vielfalt</span>
-            </button>
-            <button class="tablinks" id="tabbtn-5" onclick="openTab(event, 'frontpage-handlungsfelder-Bildung')">            
-                <i class="fa fa-pencil" style="font-size:  calc(10px + 0.75vw);"></i>
-                <span class="tabs-text">Bildung</span>
-            </button>
-        </div>
-    </div>
+    <button
+      class="tablinks active"
+      id="tabbtn-1"
+      onclick="openTab(event, 'frontpage-handlungsfelder-wirtschaft')"
+    >
+      <i class="fa fa-gear text-xl xl:text-2xl"></i>
+      <span class="hidden lg:text-sm xl:text-lg px-4 lg:block">Wirtschaft</span>
+    </button>
+    
+    <button
+      class="tablinks "
+      id="tabbtn-2"
+      onclick="openTab(event, 'frontpage-handlungsfelder-umwelt')"
+    >
+      <i class="fa fa-solar-panel text-xl xl:text-2xl"></i>
+      <span class="hidden lg:text-sm xl:text-lg px-4 lg:block">Umwelt</span>
+    </button>
+    
+    <button
+      class="tablinks "
+      id="tabbtn-3"
+      onclick="openTab(event, 'frontpage-handlungsfelder-leben')"
+    >
+      <i class="fa fa-book text-xl xl:text-2xl"></i>
+      <span class="hidden lg:text-sm xl:text-lg px-4 lg:block">Leben</span>
+    </button>
+    
+    <button
+      class="tablinks "
+      id="tabbtn-4"
+      onclick="openTab(event, 'frontpage-handlungsfelder-vielfalt')"
+    >
+      <i class="fa fa-handshake text-xl xl:text-2xl"></i>
+      <span class="hidden lg:text-sm xl:text-lg px-4 lg:block">Vielfalt</span>
+    </button>
+    
+    <button
+      class="tablinks "
+      id="tabbtn-5"
+      onclick="openTab(event, 'frontpage-handlungsfelder-bildung')"
+    >
+      <i class="fa fa-home text-xl xl:text-2xl"></i>
+      <span class="hidden lg:text-sm xl:text-lg px-4 lg:block">Bildung</span>
+    </button>
+    
+  </div>
 </div>
 
+<!-- Handlungsfelder - Tab Contents -->
 
-
-<div class ="wide-background tabcontent" id="frontpage-handlungsfelder-Wirtschaft"  style="background-color: #007ebe;">
-    <!-- import contents of Handlungsfelder from _config.yml -->
-    <div class="tab container">
+<div
+  class="wide-background tabcontent"
+  id="frontpage-handlungsfelder-wirtschaft"
+  style="display: block; background-color: #007ebe;"
+>
+  <!-- Import contents or show inline content -->
+  <div class="tab container">
     <div class="row justify-content-start">
         <div class="col" style="margin-bottom: 3vm;">
             
@@ -494,7 +509,6 @@ eine nachhaltige Entwicklung der Stadt Pirmasens.
             
             
             
-            <div class="hf-thema-title">Leitsatz</div>
             <div class="hf-thema-text">Wir schaffen die Rahmenbedingungen für eine nachhaltige Entwicklung der Wirtschaft. 
 Als vernetzte, zukunftsorientierte und attraktive Stadt sichern wir mit technologischem 
 und gesellschaftlichem Fortschritt den Wohlstand für alle Menschen in Ingolstadt.
@@ -569,9 +583,13 @@ und gesellschaftlichem Fortschritt den Wohlstand für alle Menschen in Ingolstad
 
 </div>
 
-<div class ="wide-background tabcontent" id="frontpage-handlungsfelder-Umwelt"  style="background-color: #65b448;">
-    <!-- import contents of Handlungsfelder from _config.yml -->
-    <div class="tab container">
+<div
+  class="wide-background tabcontent"
+  id="frontpage-handlungsfelder-umwelt"
+  style="display: none; background-color: #65b448;"
+>
+  <!-- Import contents or show inline content -->
+  <div class="tab container">
     <div class="row justify-content-start">
         <div class="col" style="margin-bottom: 3vm;">
             
@@ -579,7 +597,6 @@ und gesellschaftlichem Fortschritt den Wohlstand für alle Menschen in Ingolstad
             
             
             
-            <div class="hf-thema-title">Leitsatz</div>
             <div class="hf-thema-text">Wir fördern Klimaneutralität und Umweltschutz auch durch technische und digitale Lösungen. 
 Ökologische und regionale Landwirtschaft sowie der Erhalt der Biodiversität werden unterstützt. 
 Wir schaffen Bewusstsein für den Erhalt unserer natürlichen Lebensgrundlagen und sichern diese durch ressourcenschonendes Planen und Handeln.
@@ -660,9 +677,13 @@ Wir schaffen Bewusstsein für den Erhalt unserer natürlichen Lebensgrundlagen u
 
 </div>
 
-<div class ="wide-background tabcontent" id="frontpage-handlungsfelder-Leben"  style="background-color: #f8b715;">
-    <!-- import contents of Handlungsfelder from _config.yml -->
-    <div class="tab container">
+<div
+  class="wide-background tabcontent"
+  id="frontpage-handlungsfelder-leben"
+  style="display: none; background-color: #f8b715;"
+>
+  <!-- Import contents or show inline content -->
+  <div class="tab container">
     <div class="row justify-content-start">
         <div class="col" style="margin-bottom: 3vm;">
             
@@ -670,7 +691,6 @@ Wir schaffen Bewusstsein für den Erhalt unserer natürlichen Lebensgrundlagen u
             
             
             
-            <div class="hf-thema-title">Leitsatz</div>
             <div class="hf-thema-text">Wir ermöglichen gesundes und sicheres Miteinander, Wohnen und Arbeiten für alle Menschen in Ingolstadt. 
 Wir planen unsere Stadt mit ihren öffentlichen Räumen nachhaltig, generationsgerecht und inklusiv. 
 Wir sichern bedarfsgerechten Wohnbau, soziale Einrichtungen und eine gute Infrastruktur.
@@ -757,9 +777,13 @@ Wir sichern bedarfsgerechten Wohnbau, soziale Einrichtungen und eine gute Infras
 
 </div>
 
-<div class ="wide-background tabcontent" id="frontpage-handlungsfelder-Vielfalt"  style="background-color: #ed6d29;">
-    <!-- import contents of Handlungsfelder from _config.yml -->
-    <div class="tab container">
+<div
+  class="wide-background tabcontent"
+  id="frontpage-handlungsfelder-vielfalt"
+  style="display: none; background-color: #ed6d29;"
+>
+  <!-- Import contents or show inline content -->
+  <div class="tab container">
     <div class="row justify-content-start">
         <div class="col" style="margin-bottom: 3vm;">
             
@@ -767,7 +791,6 @@ Wir sichern bedarfsgerechten Wohnbau, soziale Einrichtungen und eine gute Infras
             
             
             
-            <div class="hf-thema-title">Leitsatz</div>
             <div class="hf-thema-text">Wir arbeiten aktiv an einer Stadtgesellschaft, die für Vielfalt und Respekt steht. 
 Unser Ziel sind Teilhabe und Chancengleichheit aller. 
 Wir fördern bürgerschaftliches Engagement für ein gutes Miteinander – lokal und global.
@@ -860,9 +883,13 @@ Wir fördern bürgerschaftliches Engagement für ein gutes Miteinander – lokal
 
 </div>
 
-<div class ="wide-background tabcontent" id="frontpage-handlungsfelder-Bildung"  style="background-color: #05afda;">
-    <!-- import contents of Handlungsfelder from _config.yml -->
-    <div class="tab container">
+<div
+  class="wide-background tabcontent"
+  id="frontpage-handlungsfelder-bildung"
+  style="display: none; background-color: #05afda;"
+>
+  <!-- Import contents or show inline content -->
+  <div class="tab container">
     <div class="row justify-content-start">
         <div class="col" style="margin-bottom: 3vm;">
             
@@ -870,7 +897,6 @@ Wir fördern bürgerschaftliches Engagement für ein gutes Miteinander – lokal
             
             
             
-            <div class="hf-thema-title">Leitsatz</div>
             <div class="hf-thema-text">Wir fördern Bildung, Kunst und Kultur für alle Menschen in unserer Stadt. 
 Besondere Aufmerksamkeit verdienen dabei Kreativität und freie individuelle Entfaltung und Entwicklung. 
 </div>
@@ -927,13 +953,15 @@ Besondere Aufmerksamkeit verdienen dabei Kreativität und freie individuelle Ent
 </div>
 
 
+  
+</div>
 
 
-<!-- cards (imported from separate file) -->
 
-<div class="container">
-    <div class="row g-0 frontpage-card">
-        <!-- cards for publication etc-->
+  <!-- Publications  --->
+  
+  <div class="container">
+    <div class="row g-0 frontpage-card"><!-- cards for publication etc-->
 <h2 style="font-size: 32px; font-weight: 700; color: #444444; padding-top: 5rem;">Veröffentlichungen</h2>
 <h4 style="font-size: 22px; color: #444444; margin-bottom: 20px;">Bleibe auf dem Laufenden...</h4>
 <br>
@@ -946,10 +974,10 @@ Besondere Aufmerksamkeit verdienen dabei Kreativität und freie individuelle Ent
         <div class="carousel-item active card-gap" style="overflow:visible">
             <div class="col">
                 <div class="card border">
-                    <a href="https://nachhaltigkeitsagenda-ingolstadt.de/wp-content/uploads/2023/01/221208_BNK_final_web.pdf" target="_blank" style="text-decoration: none;">
-                        <img class="card-img-top" src='/pirmasens-site/assets/img/BNK_Titelbild_1_1.jpg' alt="include.card.title">
+                    <a href="https://gitlab.opencode.de/open-sdg-germany/pirmasens-data/-/raw/develop/public/uploads/Nachhaltigkeitsstrategie-Pirmasens.pdf?ref_type=heads" target="_blank" style="text-decoration: none;">
+                        <img class="card-img-top" src='/pirmasens-site/assets/img/Nachhaltigkeitsstrategie-Pirmasens.png' alt="include.card.title">
                         <div class="cont">
-                            <h4 style="font-weight: 600; font-size: calc(1rem + 1vw*0.075); line-height: 1.5;">Nachhaltigkeitsbericht - Stadt Ingolstadt 2021</h4>
+                            <h4 style="font-weight: 600; font-size: calc(1rem + 1vw*0.075); line-height: 1.5;">Nachhaltigkeitsstrategie Pirmasens 2030</h4>
                         </div>
                     </a>
                 </div>
@@ -959,10 +987,10 @@ Besondere Aufmerksamkeit verdienen dabei Kreativität und freie individuelle Ent
         <div class="carousel-item  card-gap" style="overflow:visible">
             <div class="col">
                 <div class="card border">
-                    <a href="https://nachhaltigkeitsagenda-ingolstadt.de/wp-content/uploads/2023/01/IN_Magazin_dpa-CC_FINAL_DIGTAL.pdf" target="_blank" style="text-decoration: none;">
-                        <img class="card-img-top" src='/pirmasens-site/assets/img/IN_Magazin_Titelbild_1_1.jpg' alt="include.card.title">
+                    <a href="https://gitlab.opencode.de/open-sdg-germany/pirmasens-data/-/raw/develop/public/uploads/SDG_Biodiv_05.12.2023.pdf?ref_type=heads&inline=false" target="_blank" style="text-decoration: none;">
+                        <img class="card-img-top" src='/pirmasens-site/assets/img/SDG_Biodiv_05.12.2023.png' alt="include.card.title">
                         <div class="cont">
-                            <h4 style="font-weight: 600; font-size: calc(1rem + 1vw*0.075); line-height: 1.5;">Magazin - "Ingolstadt Nachhaltig" - Ausgabe 2022</h4>
+                            <h4 style="font-weight: 600; font-size: calc(1rem + 1vw*0.075); line-height: 1.5;">SDG Biodiversität</h4>
                         </div>
                     </a>
                 </div>
@@ -972,23 +1000,10 @@ Besondere Aufmerksamkeit verdienen dabei Kreativität und freie individuelle Ent
         <div class="carousel-item  card-gap" style="overflow:visible">
             <div class="col">
                 <div class="card border">
-                    <a href="https://www.youtube.com/watch?v=LnqFFrIGQQQ" target="_blank" style="text-decoration: none;">
-                        <img class="card-img-top" src='/pirmasens-site/assets/img/Logo N-Agenda_1_1.png' alt="include.card.title">
+                    <a href="https://gitlab.opencode.de/open-sdg-germany/pirmasens-data/-/raw/develop/public/uploads/SDG_Monitoring_09.06.2024.pdf?ref_type=heads&inline=false" target="_blank" style="text-decoration: none;">
+                        <img class="card-img-top" src='/pirmasens-site/assets/img/SDG_Monitoring_09.06.2024.png' alt="include.card.title">
                         <div class="cont">
-                            <h4 style="font-weight: 600; font-size: calc(1rem + 1vw*0.075); line-height: 1.5;">Nachhaltigkeitsfilm - Stadt Ingolstadt</h4>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
-        
-        <div class="carousel-item  card-gap" style="overflow:visible">
-            <div class="col">
-                <div class="card border">
-                    <a href="https://www.youtube.com/watch?v=VDQF-RdU0nc" target="_blank" style="text-decoration: none;">
-                        <img class="card-img-top" src='/pirmasens-site/assets/img/Logo N-Agenda_1_1.png' alt="include.card.title">
-                        <div class="cont">
-                            <h4 style="font-weight: 600; font-size: calc(1rem + 1vw*0.075); line-height: 1.5;">Video Rückblick - Visionen 2045 Ingolstadt</h4>
+                            <h4 style="font-weight: 600; font-size: calc(1rem + 1vw*0.075); line-height: 1.5;">SDG Monitoring</h4>
                         </div>
                     </a>
                 </div>
@@ -1007,13 +1022,12 @@ Besondere Aufmerksamkeit verdienen dabei Kreativität und freie individuelle Ent
     </a>
 
 </div>
-
-    </div>
 </div>
+  </div>
+  
 
-
-<!-- footer incl. binder logos -->
-
+  <!-- footer incl. binder logos -->
+  
 <footer class="wide-background " style="width: 100%; margin-top: 6rem; padding-top: 5rem; padding-bottom: 0px;">
     <div class="container">
         <div class="row g-0" style="padding: 0px;">
@@ -1059,12 +1073,7 @@ Besondere Aufmerksamkeit verdienen dabei Kreativität und freie individuelle Ent
                         
                             <li style="color:white;margin: 15px;font-weight: bold;">
                                     
-                                        <a href="https://StadtIngolstadt.github.io/sdg-data/de/zip/all_indicators.zip" target="_blank" style="text-decoration: none;color:white;margin: 10px; padding:0.5rem 0rem; font-size: 1.1rem; font-weight: 600;">Download</a>
-                                        
-                                    </li>
-                            <li style="color:white;margin: 15px;font-weight: bold;">
-                                    
-                                        <a href="mailto:nachhaltigkeit@ingolstadt.de" target="_blank" style="text-decoration: none;color:white;margin: 10px; padding:0.5rem 0rem;font-size: 1.1rem; font-weight: 600;">Kontakt</a>
+                                        <a href="mailto:michaelmaas@pirmasens.de" target="_blank" style="text-decoration: none;color:white;margin: 10px; padding:0.5rem 0rem;font-size: 1.1rem; font-weight: 600;">Kontakt</a>
                                     
                                     </li>
                             <li style="color:white;margin: 15px;font-weight: bold;">
@@ -1274,32 +1283,17 @@ if (allRequired) {
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Suche';</script>
 
-<script src='/pirmasens-site/assets/js/sdg.js?v=20250114123814'></script>
+<script src='/pirmasens-site/assets/js/sdg.js?v=20250130144552'></script>
 
 
     
     
-    <script src="/pirmasens-site/assets/js/custom.js?v=20250114123814"></script><script>
+    <script src="/pirmasens-site/assets/js/custom.js?v=20250130144552"></script>
+    
+    
+    <script src="/pirmasens-site/assets/js/tpwd.js?v=20250130144552"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
 
 
-</html>
-
-<!-- onclick expand tab for Handlungsfelder -->
-<script>
-    function openTab(evt, hf_id) {
-        var i, tabcontent, tablinks;
-        tabcontent = document.getElementsByClassName("tabcontent");
-        for (i = 0; i < tabcontent.length; i++) {
-            tabcontent[i].style.display = "none";
-        }
-        tablinks = document.getElementsByClassName("tablinks");
-        for (i = 0; i < tablinks.length; i++) {
-            tablinks[i].className = tablinks[i].className.replace(" active", "");
-        }
-        document.getElementById(hf_id).style.display = "block";
-        evt.currentTarget.className += " active";
-    }
-</script>
