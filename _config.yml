@@ -61,6 +61,8 @@ create_pages:
 custom_js:
   - /assets/js/custom.js
   - /assets/js/tpwd.js
+custom_css:
+  - /assets/css/tailwind.css
 
 exclude:
   - vendor

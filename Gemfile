@@ -7,7 +7,3 @@ gem 'jekyll-open-sdg-plugins', '2.3.0'
 gem 'jekyll-remote-theme'
 gem 'kramdown-parser-gfm'
 gem 'webrick'
-
-group :development do
-  gem 'jekyll-tailwindcss'
-end

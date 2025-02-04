@@ -1,2 +1,5 @@
-@tailwind components;
-@tailwind utilities;
+@layer theme, components, utilities, layer;
+
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/utilities.css" layer(utilities);
+@import "tailwindcss" prefix(tw);
