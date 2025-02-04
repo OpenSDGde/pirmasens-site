@@ -2,8 +2,8 @@
 <html lang="de" class="no-js">
     <head>
         <meta charset="utf-8">
-        <script src="/pirmasens-site/assets/js/header.bundle.js"></script>
         <script src="/pirmasens-site/assets/js/modernizr.min.js"></script>
+        <script src="/pirmasens-site/assets/js/header.bundle.js"></script>
         <script>
 // This is where we initialise any global variables, namespaced in "opensdg".
 var opensdg = {
@@ -138,8 +138,7 @@ var translations = {
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
-        <link rel="stylesheet" href="/pirmasens-site/assets/css/style.css?v=20250130144552">
-        <link rel="stylesheet" href="/pirmasens-site/assets/css/tailwind.css?v=20250130144552">
+        <link rel="stylesheet" href="/pirmasens-site/assets/css/style.css?v=20250204111541">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -147,7 +146,7 @@ var translations = {
         <link rel="stylesheet" href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css'  crossorigin=""/>
         <link rel="stylesheet" href="https://bowercdn.net/c/leaflet.zoomhome-latest/dist/leaflet.zoomhome.css"  crossorigin=""/>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin="">
-        <link rel="stylesheet" href="https://cdn.kiprotect.com/klaro/v0.7/klaro.min.css" crossorigin=""/>
+        <link rel="stylesheet" href="https://cdn.kiprotect.com/klaro/v0.7/klaro.min.css" crossorigin=""/><link rel="stylesheet" href="/pirmasens-site/assets/css/tailwind.css?v=20250204111541">
         
 
         
@@ -431,7 +430,7 @@ eine nachhaltige Entwicklung der Stadt Pirmasens.
   </div>
 
    
-<div style="background-color: #efeeeb">
+<div style="background-color: #efeeeb; padding-bottom: 32px;">
   <div class="container" style="margin-top: 3rem; padding-top: 3rem; padding-bottom: 1rem">
     <!-- <hr style="border: 1px solid black; margin-top: 5rem;"> -->
     <h2 class="frontpage-goals-grid-title" style="font-size: 32px; font-weight: 700">
@@ -442,52 +441,62 @@ eine nachhaltige Entwicklung der Stadt Pirmasens.
     </div>
   </div>
    
-    <div class="tab container overflow-x-auto" style="margin-top: 1rem">
-  <div class="flex flex-nowrap content-start">
+    <div class="tab tw:overflow-x-auto tw:mt-1 container">
+  <div class="tw:flex tw:flex-nowrap tw:content-start tw:align-baseline tw:px-2">
     
     <button
       class="tablinks active"
       id="tabbtn-1"
-      onclick="openTab(event, 'frontpage-handlungsfelder-wirtschaft')"
+      onclick="openTab(event, 'frontpage-handlungsfelder-globale-verantwortung-und-nachhaltiger-konsum')"
     >
-      <i class="fa fa-gear text-xl xl:text-2xl"></i>
-      <span class="hidden lg:text-sm xl:text-lg px-4 lg:block">Wirtschaft</span>
+      <div class="tw:flex tw:flex-col tw:items-center" style="padding-left: 1rem; padding-right: 1rem;">
+        <i class="fa fa-globe tw:text-xl xl:tw:text-2xl tw:mt-1" style="margin-top: 12px; margin-bottom: 8px;"></i>
+        <span class="tw:lg:text-sm tw:xl:text-lg lg:tw:block hidden">Globale Verantwortung und nachhaltiger Konsum</span>
+      </div>
     </button>
     
     <button
       class="tablinks "
       id="tabbtn-2"
-      onclick="openTab(event, 'frontpage-handlungsfelder-umwelt')"
+      onclick="openTab(event, 'frontpage-handlungsfelder-klima-und-umweltschutz')"
     >
-      <i class="fa fa-solar-panel text-xl xl:text-2xl"></i>
-      <span class="hidden lg:text-sm xl:text-lg px-4 lg:block">Umwelt</span>
+      <div class="tw:flex tw:flex-col tw:items-center" style="padding-left: 1rem; padding-right: 1rem;">
+        <i class="fa fa-leaf tw:text-xl xl:tw:text-2xl tw:mt-1" style="margin-top: 12px; margin-bottom: 8px;"></i>
+        <span class="tw:lg:text-sm tw:xl:text-lg lg:tw:block hidden">Klima- und Umweltschutz</span>
+      </div>
     </button>
     
     <button
       class="tablinks "
       id="tabbtn-3"
-      onclick="openTab(event, 'frontpage-handlungsfelder-leben')"
+      onclick="openTab(event, 'frontpage-handlungsfelder-stadt-für-alle')"
     >
-      <i class="fa fa-book text-xl xl:text-2xl"></i>
-      <span class="hidden lg:text-sm xl:text-lg px-4 lg:block">Leben</span>
+      <div class="tw:flex tw:flex-col tw:items-center" style="padding-left: 1rem; padding-right: 1rem;">
+        <i class="fa fa-restroom tw:text-xl xl:tw:text-2xl tw:mt-1" style="margin-top: 12px; margin-bottom: 8px;"></i>
+        <span class="tw:lg:text-sm tw:xl:text-lg lg:tw:block hidden">Stadt für alle</span>
+      </div>
     </button>
     
     <button
       class="tablinks "
       id="tabbtn-4"
-      onclick="openTab(event, 'frontpage-handlungsfelder-vielfalt')"
+      onclick="openTab(event, 'frontpage-handlungsfelder-nachhaltiger-standort')"
     >
-      <i class="fa fa-handshake text-xl xl:text-2xl"></i>
-      <span class="hidden lg:text-sm xl:text-lg px-4 lg:block">Vielfalt</span>
+      <div class="tw:flex tw:flex-col tw:items-center" style="padding-left: 1rem; padding-right: 1rem;">
+        <i class="fa fa-seedling tw:text-xl xl:tw:text-2xl tw:mt-1" style="margin-top: 12px; margin-bottom: 8px;"></i>
+        <span class="tw:lg:text-sm tw:xl:text-lg lg:tw:block hidden">Nachhaltiger Standort</span>
+      </div>
     </button>
     
     <button
       class="tablinks "
       id="tabbtn-5"
-      onclick="openTab(event, 'frontpage-handlungsfelder-bildung')"
+      onclick="openTab(event, 'frontpage-handlungsfelder-nachhaltige-mobilität')"
     >
-      <i class="fa fa-home text-xl xl:text-2xl"></i>
-      <span class="hidden lg:text-sm xl:text-lg px-4 lg:block">Bildung</span>
+      <div class="tw:flex tw:flex-col tw:items-center" style="padding-left: 1rem; padding-right: 1rem;">
+        <i class="fa fa-van-shuttle tw:text-xl xl:tw:text-2xl tw:mt-1" style="margin-top: 12px; margin-bottom: 8px;"></i>
+        <span class="tw:lg:text-sm tw:xl:text-lg lg:tw:block hidden">Nachhaltige Mobilität</span>
+      </div>
     </button>
     
   </div>
@@ -497,7 +506,7 @@ eine nachhaltige Entwicklung der Stadt Pirmasens.
 
 <div
   class="wide-background tabcontent"
-  id="frontpage-handlungsfelder-wirtschaft"
+  id="frontpage-handlungsfelder-globale-verantwortung-und-nachhaltiger-konsum"
   style="display: block; background-color: #007ebe;"
 >
   <!-- Import contents or show inline content -->
@@ -505,13 +514,11 @@ eine nachhaltige Entwicklung der Stadt Pirmasens.
     <div class="row justify-content-start">
         <div class="col" style="margin-bottom: 3vm;">
             
-            <h3 class="hf-subtitle">Wirtschaft</h3>
+            <h3 class="hf-subtitle">Globale Verantwortung und nachhaltiger Konsum</h3>
             
             
             
-            <div class="hf-thema-text">Wir schaffen die Rahmenbedingungen für eine nachhaltige Entwicklung der Wirtschaft. 
-Als vernetzte, zukunftsorientierte und attraktive Stadt sichern wir mit technologischem 
-und gesellschaftlichem Fortschritt den Wohlstand für alle Menschen in Ingolstadt.
+            <div class="hf-thema-text">Im Jahr 2030 wird eine Kultur des nachhaltigen Konsums gelebt. Die öffentliche Beschaffung wird nach sozialen und ökologischen Kriterien ausgerichtet. Die Stadtbevölkerung wird umfassend über nachhaltigen Konsum informiert und auch Schulen greifen das Thema auf. Die Stadt Pirmasens vertieft ihre internationalen Partnerschaften und setzt sich für globales Engagement ein. Damit leisten wir als Stadt Pirmasens einen Beitrag zu den Globalen Nachhaltigkeitszielen der Agenda 2030, insbesondere zu den Zielen: SDG 4, SDG 11, SDG 12 sowie SDG 17.
 </div>
             
         </div>
@@ -534,30 +541,6 @@ und gesellschaftlichem Fortschritt den Wohlstand für alle Menschen in Ingolstad
                     </a>
                 </div>
                 <div>
-                    <a href="/pirmasens-site/5">
-                        <img src="/pirmasens-site/assets/img/goals/de/5.png" class="block img-responsive img-hf-goal"
-                            alt="Handlungsfelder - Goal 5" id="goal5"/>
-                    </a>
-                </div>
-                <div>
-                    <a href="/pirmasens-site/8">
-                        <img src="/pirmasens-site/assets/img/goals/de/8.png" class="block img-responsive img-hf-goal"
-                            alt="Handlungsfelder - Goal 8" id="goal8"/>
-                    </a>
-                </div>
-                <div>
-                    <a href="/pirmasens-site/9">
-                        <img src="/pirmasens-site/assets/img/goals/de/9.png" class="block img-responsive img-hf-goal"
-                            alt="Handlungsfelder - Goal 9" id="goal9"/>
-                    </a>
-                </div>
-                <div>
-                    <a href="/pirmasens-site/10">
-                        <img src="/pirmasens-site/assets/img/goals/de/10.png" class="block img-responsive img-hf-goal"
-                            alt="Handlungsfelder - Goal 10" id="goal10"/>
-                    </a>
-                </div>
-                <div>
                     <a href="/pirmasens-site/11">
                         <img src="/pirmasens-site/assets/img/goals/de/11.png" class="block img-responsive img-hf-goal"
                             alt="Handlungsfelder - Goal 11" id="goal11"/>
@@ -570,9 +553,9 @@ und gesellschaftlichem Fortschritt den Wohlstand für alle Menschen in Ingolstad
                     </a>
                 </div>
                 <div>
-                    <a href="/pirmasens-site/13">
-                        <img src="/pirmasens-site/assets/img/goals/de/13.png" class="block img-responsive img-hf-goal"
-                            alt="Handlungsfelder - Goal 13" id="goal13"/>
+                    <a href="/pirmasens-site/17">
+                        <img src="/pirmasens-site/assets/img/goals/de/17.png" class="block img-responsive img-hf-goal"
+                            alt="Handlungsfelder - Goal 17" id="goal17"/>
                     </a>
                 </div>
             </div>  
@@ -585,7 +568,7 @@ und gesellschaftlichem Fortschritt den Wohlstand für alle Menschen in Ingolstad
 
 <div
   class="wide-background tabcontent"
-  id="frontpage-handlungsfelder-umwelt"
+  id="frontpage-handlungsfelder-klima-und-umweltschutz"
   style="display: none; background-color: #65b448;"
 >
   <!-- Import contents or show inline content -->
@@ -593,13 +576,11 @@ und gesellschaftlichem Fortschritt den Wohlstand für alle Menschen in Ingolstad
     <div class="row justify-content-start">
         <div class="col" style="margin-bottom: 3vm;">
             
-            <h3 class="hf-subtitle">Umwelt</h3>
+            <h3 class="hf-subtitle">Klima- und Umweltschutz</h3>
             
             
             
-            <div class="hf-thema-text">Wir fördern Klimaneutralität und Umweltschutz auch durch technische und digitale Lösungen. 
-Ökologische und regionale Landwirtschaft sowie der Erhalt der Biodiversität werden unterstützt. 
-Wir schaffen Bewusstsein für den Erhalt unserer natürlichen Lebensgrundlagen und sichern diese durch ressourcenschonendes Planen und Handeln.
+            <div class="hf-thema-text">Pirmasens leistet bis zum Jahr 2030 einen wichtigen Beitrag zum Klimaschutz indem der Anteil erneuerbarer Energien im Energieverbrauch erhöht und die Energieffizienz kommunaler Gebäude verbessert wird um schlussendlich eine klimaneutrale Stadt zu werden. Die Biodiversität und die Klimaresilienz wird kontinuierlich gefördert um nachkommenden Generationen ein lebenswertes Umfeld für ihre zukünftige Entwicklung zu ermöglichen. Damit leisten wir als Stadt Pirmasens einen Beitrag zu den Globalen Nachhaltigkeitszielen der Agenda 2030, insbesondere zu den Zielen: SDG 7, SDG 11, SDG 13 sowie SDG 15.
 </div>
             
         </div>
@@ -615,18 +596,6 @@ Wir schaffen Bewusstsein für den Erhalt unserer natürlichen Lebensgrundlagen u
                 
                 
                 
-                <div>
-                    <a href="/pirmasens-site/2">
-                        <img src="/pirmasens-site/assets/img/goals/de/2.png" class="block img-responsive img-hf-goal"
-                            alt="Handlungsfelder - Goal 2" id="goal2"/>
-                    </a>
-                </div>
-                <div>
-                    <a href="/pirmasens-site/6">
-                        <img src="/pirmasens-site/assets/img/goals/de/6.png" class="block img-responsive img-hf-goal"
-                            alt="Handlungsfelder - Goal 6" id="goal6"/>
-                    </a>
-                </div>
                 <div>
                     <a href="/pirmasens-site/7">
                         <img src="/pirmasens-site/assets/img/goals/de/7.png" class="block img-responsive img-hf-goal"
@@ -634,33 +603,15 @@ Wir schaffen Bewusstsein für den Erhalt unserer natürlichen Lebensgrundlagen u
                     </a>
                 </div>
                 <div>
-                    <a href="/pirmasens-site/9">
-                        <img src="/pirmasens-site/assets/img/goals/de/9.png" class="block img-responsive img-hf-goal"
-                            alt="Handlungsfelder - Goal 9" id="goal9"/>
-                    </a>
-                </div>
-                <div>
                     <a href="/pirmasens-site/11">
                         <img src="/pirmasens-site/assets/img/goals/de/11.png" class="block img-responsive img-hf-goal"
                             alt="Handlungsfelder - Goal 11" id="goal11"/>
                     </a>
                 </div>
                 <div>
-                    <a href="/pirmasens-site/12">
-                        <img src="/pirmasens-site/assets/img/goals/de/12.png" class="block img-responsive img-hf-goal"
-                            alt="Handlungsfelder - Goal 12" id="goal12"/>
-                    </a>
-                </div>
-                <div>
                     <a href="/pirmasens-site/13">
                         <img src="/pirmasens-site/assets/img/goals/de/13.png" class="block img-responsive img-hf-goal"
                             alt="Handlungsfelder - Goal 13" id="goal13"/>
-                    </a>
-                </div>
-                <div>
-                    <a href="/pirmasens-site/14">
-                        <img src="/pirmasens-site/assets/img/goals/de/14.png" class="block img-responsive img-hf-goal"
-                            alt="Handlungsfelder - Goal 14" id="goal14"/>
                     </a>
                 </div>
                 <div>
@@ -679,7 +630,7 @@ Wir schaffen Bewusstsein für den Erhalt unserer natürlichen Lebensgrundlagen u
 
 <div
   class="wide-background tabcontent"
-  id="frontpage-handlungsfelder-leben"
+  id="frontpage-handlungsfelder-stadt-für-alle"
   style="display: none; background-color: #f8b715;"
 >
   <!-- Import contents or show inline content -->
@@ -687,113 +638,11 @@ Wir schaffen Bewusstsein für den Erhalt unserer natürlichen Lebensgrundlagen u
     <div class="row justify-content-start">
         <div class="col" style="margin-bottom: 3vm;">
             
-            <h3 class="hf-subtitle">Leben</h3>
+            <h3 class="hf-subtitle">Stadt für alle</h3>
             
             
             
-            <div class="hf-thema-text">Wir ermöglichen gesundes und sicheres Miteinander, Wohnen und Arbeiten für alle Menschen in Ingolstadt. 
-Wir planen unsere Stadt mit ihren öffentlichen Räumen nachhaltig, generationsgerecht und inklusiv. 
-Wir sichern bedarfsgerechten Wohnbau, soziale Einrichtungen und eine gute Infrastruktur.
-</div>
-            
-        </div>
-    </div>
-    
-    <hr style="border: 1px solid white;">
-
-    
-    <div class="row justify-content-start">
-        <div class="col hf-goal-tiles">
-            <div class="hf-subtitle" style="font-size: 1.5rem; margin-top: 4vh;">SDGs zu dem Handlungsfeld</div>
-            <div class="flex-grid">
-                
-                
-                
-                <div>
-                    <a href="/pirmasens-site/2">
-                        <img src="/pirmasens-site/assets/img/goals/de/2.png" class="block img-responsive img-hf-goal"
-                            alt="Handlungsfelder - Goal 2" id="goal2"/>
-                    </a>
-                </div>
-                <div>
-                    <a href="/pirmasens-site/3">
-                        <img src="/pirmasens-site/assets/img/goals/de/3.png" class="block img-responsive img-hf-goal"
-                            alt="Handlungsfelder - Goal 3" id="goal3"/>
-                    </a>
-                </div>
-                <div>
-                    <a href="/pirmasens-site/6">
-                        <img src="/pirmasens-site/assets/img/goals/de/6.png" class="block img-responsive img-hf-goal"
-                            alt="Handlungsfelder - Goal 6" id="goal6"/>
-                    </a>
-                </div>
-                <div>
-                    <a href="/pirmasens-site/9">
-                        <img src="/pirmasens-site/assets/img/goals/de/9.png" class="block img-responsive img-hf-goal"
-                            alt="Handlungsfelder - Goal 9" id="goal9"/>
-                    </a>
-                </div>
-                <div>
-                    <a href="/pirmasens-site/10">
-                        <img src="/pirmasens-site/assets/img/goals/de/10.png" class="block img-responsive img-hf-goal"
-                            alt="Handlungsfelder - Goal 10" id="goal10"/>
-                    </a>
-                </div>
-                <div>
-                    <a href="/pirmasens-site/11">
-                        <img src="/pirmasens-site/assets/img/goals/de/11.png" class="block img-responsive img-hf-goal"
-                            alt="Handlungsfelder - Goal 11" id="goal11"/>
-                    </a>
-                </div>
-                <div>
-                    <a href="/pirmasens-site/12">
-                        <img src="/pirmasens-site/assets/img/goals/de/12.png" class="block img-responsive img-hf-goal"
-                            alt="Handlungsfelder - Goal 12" id="goal12"/>
-                    </a>
-                </div>
-                <div>
-                    <a href="/pirmasens-site/13">
-                        <img src="/pirmasens-site/assets/img/goals/de/13.png" class="block img-responsive img-hf-goal"
-                            alt="Handlungsfelder - Goal 13" id="goal13"/>
-                    </a>
-                </div>
-                <div>
-                    <a href="/pirmasens-site/15">
-                        <img src="/pirmasens-site/assets/img/goals/de/15.png" class="block img-responsive img-hf-goal"
-                            alt="Handlungsfelder - Goal 15" id="goal15"/>
-                    </a>
-                </div>
-                <div>
-                    <a href="/pirmasens-site/16">
-                        <img src="/pirmasens-site/assets/img/goals/de/16.png" class="block img-responsive img-hf-goal"
-                            alt="Handlungsfelder - Goal 16" id="goal16"/>
-                    </a>
-                </div>
-            </div>  
-        </div>
-    </div>
-    
-</div> 
-
-</div>
-
-<div
-  class="wide-background tabcontent"
-  id="frontpage-handlungsfelder-vielfalt"
-  style="display: none; background-color: #ed6d29;"
->
-  <!-- Import contents or show inline content -->
-  <div class="tab container">
-    <div class="row justify-content-start">
-        <div class="col" style="margin-bottom: 3vm;">
-            
-            <h3 class="hf-subtitle">Vielfalt</h3>
-            
-            
-            
-            <div class="hf-thema-text">Wir arbeiten aktiv an einer Stadtgesellschaft, die für Vielfalt und Respekt steht. 
-Unser Ziel sind Teilhabe und Chancengleichheit aller. 
-Wir fördern bürgerschaftliches Engagement für ein gutes Miteinander – lokal und global.
+            <div class="hf-thema-text">Pirmasens ist eine Stadt für alle: Für Junge und Alte, für Schüler und Berufstätige, für Alleinerziehende und Familien, für Erwerbstätige und Erwerbslose, für Gesunde und Kranke, für Singles und Beziehungsmenschen und viele andere mehr. Hilfsbedürftige und sich in sozialer Schieflage befindliche Menschen werden gefördert und in das gesellschaftliche Leben integriert. Verschieden Projekten bilden Familien und jungen Menschen Zugang zu Bildung und Freizeitaktivitäten um ihnen die Chance auf ein erfülltes und erfolgreiches Leben zu ermöglichen. Damit leisten wir als Stadt Pirmasens einen Beitrag zu den Globalen Nachhaltigkeitszielen der Agenda 2030, insbesondere zu den Zielen: SDG 4 und SDG 10.
 </div>
             
         </div>
@@ -816,63 +665,15 @@ Wir fördern bürgerschaftliches Engagement für ein gutes Miteinander – lokal
                     </a>
                 </div>
                 <div>
-                    <a href="/pirmasens-site/2">
-                        <img src="/pirmasens-site/assets/img/goals/de/2.png" class="block img-responsive img-hf-goal"
-                            alt="Handlungsfelder - Goal 2" id="goal2"/>
-                    </a>
-                </div>
-                <div>
-                    <a href="/pirmasens-site/3">
-                        <img src="/pirmasens-site/assets/img/goals/de/3.png" class="block img-responsive img-hf-goal"
-                            alt="Handlungsfelder - Goal 3" id="goal3"/>
-                    </a>
-                </div>
-                <div>
                     <a href="/pirmasens-site/4">
                         <img src="/pirmasens-site/assets/img/goals/de/4.png" class="block img-responsive img-hf-goal"
                             alt="Handlungsfelder - Goal 4" id="goal4"/>
                     </a>
                 </div>
                 <div>
-                    <a href="/pirmasens-site/5">
-                        <img src="/pirmasens-site/assets/img/goals/de/5.png" class="block img-responsive img-hf-goal"
-                            alt="Handlungsfelder - Goal 5" id="goal5"/>
-                    </a>
-                </div>
-                <div>
-                    <a href="/pirmasens-site/6">
-                        <img src="/pirmasens-site/assets/img/goals/de/6.png" class="block img-responsive img-hf-goal"
-                            alt="Handlungsfelder - Goal 6" id="goal6"/>
-                    </a>
-                </div>
-                <div>
                     <a href="/pirmasens-site/10">
                         <img src="/pirmasens-site/assets/img/goals/de/10.png" class="block img-responsive img-hf-goal"
                             alt="Handlungsfelder - Goal 10" id="goal10"/>
-                    </a>
-                </div>
-                <div>
-                    <a href="/pirmasens-site/11">
-                        <img src="/pirmasens-site/assets/img/goals/de/11.png" class="block img-responsive img-hf-goal"
-                            alt="Handlungsfelder - Goal 11" id="goal11"/>
-                    </a>
-                </div>
-                <div>
-                    <a href="/pirmasens-site/15">
-                        <img src="/pirmasens-site/assets/img/goals/de/15.png" class="block img-responsive img-hf-goal"
-                            alt="Handlungsfelder - Goal 15" id="goal15"/>
-                    </a>
-                </div>
-                <div>
-                    <a href="/pirmasens-site/16">
-                        <img src="/pirmasens-site/assets/img/goals/de/16.png" class="block img-responsive img-hf-goal"
-                            alt="Handlungsfelder - Goal 16" id="goal16"/>
-                    </a>
-                </div>
-                <div>
-                    <a href="/pirmasens-site/17">
-                        <img src="/pirmasens-site/assets/img/goals/de/17.png" class="block img-responsive img-hf-goal"
-                            alt="Handlungsfelder - Goal 17" id="goal17"/>
                     </a>
                 </div>
             </div>  
@@ -885,20 +686,19 @@ Wir fördern bürgerschaftliches Engagement für ein gutes Miteinander – lokal
 
 <div
   class="wide-background tabcontent"
-  id="frontpage-handlungsfelder-bildung"
-  style="display: none; background-color: #05afda;"
+  id="frontpage-handlungsfelder-nachhaltiger-standort"
+  style="display: none; background-color: #ed6d29;"
 >
   <!-- Import contents or show inline content -->
   <div class="tab container">
     <div class="row justify-content-start">
         <div class="col" style="margin-bottom: 3vm;">
             
-            <h3 class="hf-subtitle">Bildung</h3>
+            <h3 class="hf-subtitle">Nachhaltiger Standort</h3>
             
             
             
-            <div class="hf-thema-text">Wir fördern Bildung, Kunst und Kultur für alle Menschen in unserer Stadt. 
-Besondere Aufmerksamkeit verdienen dabei Kreativität und freie individuelle Entfaltung und Entwicklung. 
+            <div class="hf-thema-text">Pirmasens erfindet sich neu. Die Stadt zeichnet sich durch eine hohe Lebensqualität aus und bietet neben klassischen Wohnformen Raum für neue, innovative Ansätze des Zusammenlebens. Studierende und junge Unternehmen finden ein anregendes und unterstützendes Umfeld. Die Stadt achtet darauf die kommunalen Werte und Finanzen generationsgerecht zu pflegen und zu erhalten. Die Qualitäten von Pirmasens als attraktive, innovative und klimaneutrale Mittelstadt am Rande des Biosphärenreservats Pfälzerwald werden vor Ort gelebt und überregional bekannt gemacht. Damit leisten wir als Stadt Pirmasens einen Beitrag zu den Globalen Nachhaltigkeitszielen der Agenda 2030, insbesondere zu den Zielen: SDG 4, SDG 8, SDG 9, SDG 11 und SDG 16.
 </div>
             
         </div>
@@ -921,15 +721,15 @@ Besondere Aufmerksamkeit verdienen dabei Kreativität und freie individuelle Ent
                     </a>
                 </div>
                 <div>
-                    <a href="/pirmasens-site/9">
-                        <img src="/pirmasens-site/assets/img/goals/de/9.png" class="block img-responsive img-hf-goal"
-                            alt="Handlungsfelder - Goal 9" id="goal9"/>
+                    <a href="/pirmasens-site/8">
+                        <img src="/pirmasens-site/assets/img/goals/de/8.png" class="block img-responsive img-hf-goal"
+                            alt="Handlungsfelder - Goal 8" id="goal8"/>
                     </a>
                 </div>
                 <div>
-                    <a href="/pirmasens-site/10">
-                        <img src="/pirmasens-site/assets/img/goals/de/10.png" class="block img-responsive img-hf-goal"
-                            alt="Handlungsfelder - Goal 10" id="goal10"/>
+                    <a href="/pirmasens-site/9">
+                        <img src="/pirmasens-site/assets/img/goals/de/9.png" class="block img-responsive img-hf-goal"
+                            alt="Handlungsfelder - Goal 9" id="goal9"/>
                     </a>
                 </div>
                 <div>
@@ -942,6 +742,56 @@ Besondere Aufmerksamkeit verdienen dabei Kreativität und freie individuelle Ent
                     <a href="/pirmasens-site/16">
                         <img src="/pirmasens-site/assets/img/goals/de/16.png" class="block img-responsive img-hf-goal"
                             alt="Handlungsfelder - Goal 16" id="goal16"/>
+                    </a>
+                </div>
+            </div>  
+        </div>
+    </div>
+    
+</div> 
+
+</div>
+
+<div
+  class="wide-background tabcontent"
+  id="frontpage-handlungsfelder-nachhaltige-mobilität"
+  style="display: none; background-color: #05afda;"
+>
+  <!-- Import contents or show inline content -->
+  <div class="tab container">
+    <div class="row justify-content-start">
+        <div class="col" style="margin-bottom: 3vm;">
+            
+            <h3 class="hf-subtitle">Nachhaltige Mobilität</h3>
+            
+            
+            
+            <div class="hf-thema-text">Alle Teile von Pirmasens sind 2030 problemlos mit öffentlichen Verkehrsmitteln, mit dem Rad oder zu Fuß zu erreichen. Der KFZ-Verkehr wurde auf das Nötigste reduziert, wodurch Umweltbelastungen gesenkt und Gefahren für Menschen reduziert werden konnten. In Verbindung mit sicheren, inklusiven und attraktiven öffentlichen Räumen ist die Lebensqualität aller Bürgerinnen und Bürger erheblich gesteigert worden. Damit leisten wir als Stadt Pirmasens einen Beitrag zu den Globalen Nachhaltigkeitszielen der Agenda 2030, insbesondere zu den Zielen SDG 11 und 13
+</div>
+            
+        </div>
+    </div>
+    
+    <hr style="border: 1px solid white;">
+
+    
+    <div class="row justify-content-start">
+        <div class="col hf-goal-tiles">
+            <div class="hf-subtitle" style="font-size: 1.5rem; margin-top: 4vh;">SDGs zu dem Handlungsfeld</div>
+            <div class="flex-grid">
+                
+                
+                
+                <div>
+                    <a href="/pirmasens-site/11">
+                        <img src="/pirmasens-site/assets/img/goals/de/11.png" class="block img-responsive img-hf-goal"
+                            alt="Handlungsfelder - Goal 11" id="goal11"/>
+                    </a>
+                </div>
+                <div>
+                    <a href="/pirmasens-site/13">
+                        <img src="/pirmasens-site/assets/img/goals/de/13.png" class="block img-responsive img-hf-goal"
+                            alt="Handlungsfelder - Goal 13" id="goal13"/>
                     </a>
                 </div>
             </div>  
@@ -1283,15 +1133,15 @@ if (allRequired) {
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Suche';</script>
 
-<script src='/pirmasens-site/assets/js/sdg.js?v=20250130144552'></script>
+<script src='/pirmasens-site/assets/js/sdg.js?v=20250204111541'></script>
 
 
     
     
-    <script src="/pirmasens-site/assets/js/custom.js?v=20250130144552"></script>
+    <script src="/pirmasens-site/assets/js/custom.js?v=20250204111541"></script>
     
     
-    <script src="/pirmasens-site/assets/js/tpwd.js?v=20250130144552"></script><script>
+    <script src="/pirmasens-site/assets/js/tpwd.js?v=20250204111541"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
